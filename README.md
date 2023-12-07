@@ -4,6 +4,11 @@ A very simple, probably bugged, web quiz app designed to practice 22916 Software
 
 <br/>
 
+## Getting Started
+
+Simply go to [https://romansko.github.io/22916](https://romansko.github.io/22916/).
+
+<br/>
 
 
 ## QuizApp Template
