@@ -1,6 +1,6 @@
 
 var quizTitle = "22916 - הנדסת תוכנה";
-const jsonDB = 'http://localhost:8000/db/db.json';  //todo: replace with github link
+const jsonDB = 'https://github.com/Romansko/22916/blob/main/db/db.json';
 
 
 
@@ -246,7 +246,7 @@ function loadAllQuestions() {
         populateQuiz();
     })
     .fail(function(jqxhr, textStatus, error) {
-        alert('Unable to fetch questions from database. Please try again later.');
+        alert('תקלה ביבוא שאלות מהמסד. נסו לחזור מאוחר יותר..');
         console.error(error);
     });
 }
