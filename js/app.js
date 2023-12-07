@@ -1,8 +1,6 @@
 
 var quizTitle = "22916 - הנדסת תוכנה";
-const jsonDB = 'https://github.com/Romansko/22916/blob/main/db/db.json';
-
-
+const jsonDB = 'db/db.json';
 
 
 /*************************************** INTERNAL LOGICS *************************************************/
