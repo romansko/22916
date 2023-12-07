@@ -385,16 +385,5 @@
     "explanation" : "There's no such thing a drum development model!",
     "image" : "",
     "question" : "Which of the below is NOT a valid development model?"
-  }, {
-    "choices" : {
-      "A" : "The V development model.",
-      "B" : "The Waterfall development model.",
-      "C" : "The Spiral development model.",
-      "D" : "The W development model."
-    },
-    "correct" : "The V development model.",
-    "explanation" : "This is the V Development model.",
-    "image" : "https://serving.photos.photobox.com/3988027826e4270e98b4d954de4ebaf3bd5dc8cfe0707e0bee2cfb08e2a322078a146c5d.jpg",
-    "question" : "What development model is described in the picture?"
-  }  ]
+  } ]
 }

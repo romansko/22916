@@ -1,5 +1,5 @@
 
-var quizTitle = "QuizApp - 22961 Software Engineering";
+var quizTitle = "22916 - הנדסת תוכנה";
 const jsonDB = 'http://localhost:8000/db/db.json';  //todo: replace with github link
 
 
@@ -77,14 +77,14 @@ function processQuestion(choice) {
     var correctString = quiz[currentquestion]['correct'];
     if (userChoice == correctString) {
         $('.choice').eq(choice).css({ 'background-color': '#50D943' });
-        $('#explanation').html('<strong><font color="darkgreen">' + correctText + '! &#10004;</font><br/></strong> ' + htmlEncode(quiz[currentquestion]['explanation']));
+        $('#explanation').html('<strong><font color="darkgreen">&#10004; ' + correctText + '!</font><br/></strong> ' + htmlEncode(quiz[currentquestion]['explanation']));
         score++;
     } else {
         allQuestions.push(userQuestion);        // redo mistaken question.
         var correctIndex = quiz[currentquestion]['choices'].indexOf(correctString);
         $('.choice').eq(correctIndex).css({ 'background-color': 'lightgreen' });
         $('.choice').eq(choice).css({ 'background-color': '#D92623' });
-        $('#explanation').html('<strong><font color="darkred">' + wrongText + ' &#10008;</font><br/></strong> ' + htmlEncode(quiz[currentquestion]['explanation']));
+        $('#explanation').html('<strong><font color="darkred">&#10008; ' + wrongText + '</font><br/></strong> ' + htmlEncode(quiz[currentquestion]['explanation']));
     }
     currentquestion++;
     $('#submitbutton').html(nextQuestionText + ' &raquo;').on('click', function () {
@@ -136,17 +136,17 @@ function endQuiz() {
     var gradeColor = 'black';
     var cheers = "";
     if (grade < 56) {
-        cheers = 'You have failed.';
+        cheers = 'נדרש תרגול נוסף..';
         gradeColor = 'darkred';
     }
     else if (grade > 90) {
-        cheers = 'Wow! Amazing score!';
+        cheers = 'ציון מעולה!';
         gradeColor = 'darkgreen'
     }
     $(document.createElement('gradeH')).css({ 'text-align': 'center', 'font-size': '4em', 'color': gradeColor }).text(grade).insertAfter('#question');
     $(document.createElement('space')).html('<br/>').insertAfter('gradeH');
     $(document.createElement('cheers')).css({ 'color': gradeColor }).text(cheers).insertAfter('space');
-
+    $(document.createElement('newq')).html('<center><button onclick="populateQuiz()" style="font-size : 20px; padding : 4px;">טען שאלון חדש</button></center>').insertAfter('cheers');
 }
 
 /**
@@ -296,10 +296,12 @@ function generateBulk() {
     }
     var bulkQuestionsString = "";
     bulkQuestionsString += "<center><H1>"+quizTitle+"</H1><br/>";
-    bulkQuestionsString += "<br/>Correct answer is colored <font color = \"green\">green</font>.";
-    bulkQuestionsString += "<br/>Explanation is colored <font color = \"blue\">blue</font>.";
-    bulkQuestionsString += "<br/>Total questions:" + allQuestionsSave.length;
-    bulkQuestionsString += "<br/><br><button onClick=\"window.print();return false;\">print</button>"
+    bulkQuestionsString += "<div style=\"font-size : 20px;\">";
+    bulkQuestionsString += "<br/>תשובה נכונה צבועה <font color = \"green\">בירוק</font>.";
+    bulkQuestionsString += "<br/>הסבר צבוע <font color = \"blue\">בכחול</font>.";
+    bulkQuestionsString += "<br/>סך שאלות במסד: " + allQuestionsSave.length;
+    bulkQuestionsString += "</div>"
+    bulkQuestionsString += "<br/><br><button style=\"font-size : 20px; padding : 4px;\" onClick=\"window.print();return false;\">הדפסה</button>"
     bulkQuestionsString += "</center><br/><hr/>";
     allQuestionsSave.forEach(function (q) {
         console.log(q);
@@ -327,22 +329,22 @@ function generateBulk() {
 }
 
 function initQuiz() {
-    questionText = 'Question';
-    questionTextOf = 'out of';
-    checkAnswer = 'check answer';
-    doneQuizText1 = "You answered right ";
-    doneQuizText2 = " out of ";
+    questionText = 'שאלה';
+    questionTextOf = 'מתוך';
+    checkAnswer = 'בדיקה';
+    doneQuizText1 = "תשובה נכונה ";
+    doneQuizText2 = " מתוך ";
     doneQuizText3 = ".";
-    doneQuizText4 = " Your grade is: ";
-    nextQuestionText = "next question";
-    correctText = 'correct';
-    wrongText = 'wrong'
-    qInDB = 'Total Questions: ';
-    notEnoughQuestionMessage = 'There are not enough questions to fill ' + qInQuiz +  'questions in a quiz.';
-    $("#newquiz").text('Load new Quiz');
-    $("#genBulk").text('All questions view');
-    $("#setQuizSize").text('Set number of quesitons in quiz');
-    $("#fetchingQ").text('Loading questions from database..');
+    doneQuizText4 = " ציון: ";
+    nextQuestionText = "עבור לשאלה הבאה";
+    correctText = 'נכון';
+    wrongText = 'לא נכון'
+    qInDB = 'סה"כ שאלות במסד: ';
+    notEnoughQuestionMessage = 'אין מספיק שאלות במסד הנתונים בשביל למלא  ' + qInQuiz +  'שאלות בשאלון.';
+    $("#newquiz").text('טען שאלון חדש');
+    $("#genBulk").text('צפה בכל השאלות');
+    $("#setQuizSize").text('הגדרת מספר שאלות בשאלון');
+    $("#fetchingQ").text('טוען שאלות מהמסד..');
     document.body.style = "text-align:right;unicode-bidi:bidi-override; direction:rtl;"
     loadAllQuestions();
 }
@@ -387,8 +389,8 @@ window.onclick = function(event) {
 }
 
 function setQuizSize() {
-    var descText = 'Set number of questions in a quiz';
-    var errorText = 'Invalid input';
+    var descText = 'הגדרת מספר שאלות בשאלון';
+    var errorText = 'קלט לא תקין';
     var inputText = prompt(descText, qInQuiz);
     if (inputText == null) {
         return; // cancelled.
