@@ -797,6 +797,7 @@ $
 2
 3
 4
+$
 https://github.com/Romansko/22916/blob/main/img/fixsoft.png
 ;
 יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה. במהלך ריצת המערכת, בה המפתח עורך קובץ JAVA אחד בלבד, כמה אובייקטים יש למחלקה ConcreteObserver?
@@ -804,6 +805,7 @@ https://github.com/Romansko/22916/blob/main/img/fixsoft.png
 1
 2
 4
+$
 https://github.com/Romansko/22916/blob/main/img/fixsoft.png
 ;
 יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה. במהלך ריצת המערכת, בה המפתח עורך קובץ JAVA אחד בלבד, כמה פעמים נקראת המתודה attach?
@@ -811,6 +813,7 @@ https://github.com/Romansko/22916/blob/main/img/fixsoft.png
 1
 2
 4
+$
 https://github.com/Romansko/22916/blob/main/img/fixsoft.png
 ;
 יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה. כאשר המפתח (המשתמש במערכת) מעדכן את קוד מחלקת הJAVA בעורך, אלו מתודות נקראות?
@@ -818,6 +821,7 @@ notify, update, getState
 notify, attach, update
 notify, detach, update
 notify, attach, update, getState
+$
 https://github.com/Romansko/22916/blob/main/img/fixsoft.png
 ;
 הספרייה JUnit מיועדת לכתיבת בדיקות יחידה בלבד
