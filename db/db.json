@@ -405,7 +405,7 @@
     },
     "correct" : "Modifiability",
     "explanation" : "",
-    "image" : "https://github.com/Romansko/22916/blob/main/img/maintainability.png",
+    "image" : "https://raw.githubusercontent.com/Romansko/22916/main/img/maintainability.png",
     "question" : "חבילת הבדיקות האוטומטיות ב-XP קשורה באופן הדוק ליכולת לבצע Refactoring בפרויקט איזו תת קטגוריה של הדרישה הלא-פונקציונאלית 'תחזוקתיות' (Maintainability) באה לידי ביטוי הודות לקשר הזה? (מתוך התקן ISO 25010)"
   }, {
     "choices" : {
@@ -559,7 +559,7 @@
     },
     "correct" : "Modularity",
     "explanation" : "",
-    "image" : "https://github.com/Romansko/22916/blob/main/img/maintainability.png",
+    "image" : "https://raw.githubusercontent.com/Romansko/22916/main/img/maintainability.png",
     "question" : "איזו תת קטגוריה של הדרישה הלא-פונקציונאלית 'תחזוקתיות' (Maintainability) באה לידי ביטוי בעיקר במעבר מארכיטקטורה מונוליטית לארכיטקטורת מיקרו-שירותים? (מתוך התקן ISO 25010)"
   }, {
     "choices" : {
@@ -1351,7 +1351,7 @@
     },
     "correct" : "1",
     "explanation" : "",
-    "image" : "https://github.com/Romansko/22916/blob/main/img/fixsoft.png",
+    "image" : "https://raw.githubusercontent.com/Romansko/22916/main/img/fixsoft.png",
     "question" : "יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה במהלך ריצת המערכת, בה המפתח עורך קובץ JAVA אחד בלבד, כמה אובייקטים יש למחלקה ConcreteSubject?"
   }, {
     "choices" : {
@@ -1362,7 +1362,7 @@
     },
     "correct" : "3",
     "explanation" : "",
-    "image" : "https://github.com/Romansko/22916/blob/main/img/fixsoft.png",
+    "image" : "https://raw.githubusercontent.com/Romansko/22916/main/img/fixsoft.png",
     "question" : "יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה במהלך ריצת המערכת, בה המפתח עורך קובץ JAVA אחד בלבד, כמה אובייקטים יש למחלקה ConcreteObserver?"
   }, {
     "choices" : {
@@ -1373,7 +1373,7 @@
     },
     "correct" : "3",
     "explanation" : "",
-    "image" : "https://github.com/Romansko/22916/blob/main/img/fixsoft.png",
+    "image" : "https://raw.githubusercontent.com/Romansko/22916/main/img/fixsoft.png",
     "question" : "יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה במהלך ריצת המערכת, בה המפתח עורך קובץ JAVA אחד בלבד, כמה פעמים נקראת המתודה attach?"
   }, {
     "choices" : {
@@ -1384,7 +1384,7 @@
     },
     "correct" : "notify, update, getState",
     "explanation" : "",
-    "image" : "https://github.com/Romansko/22916/blob/main/img/fixsoft.png",
+    "image" : "https://raw.githubusercontent.com/Romansko/22916/main/img/fixsoft.png",
     "question" : "יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה כאשר המפתח (המשתמש במערכת) מעדכן את קוד מחלקת הJAVA בעורך, אלו מתודות נקראות?"
   }, {
     "choices" : {
