@@ -2,6 +2,8 @@
 
 A very simple, probably bugged, web quiz app designed to practice 22916 Software Engineering exam questions.
 
+The questions are mainly taken from the various exams of the course [22916 Software Engineering](https://www.openu.ac.il/courses/22916.htm).
+
 <br/>
 
 ## Getting Started
