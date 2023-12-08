@@ -38,6 +38,13 @@ function nextQuestion() {
     submt = true;
     $('#explanation').empty();
     $('#question').text(quiz[currentquestion]['question']);
+	console.log($('#question').text);
+	firstChar = quiz[currentquestion]['question'][0]
+	if (firstChar.match('[a-zA-Z]'))
+		document.body.style['direction'] = 'ltr';
+	else
+		document.body.style['direction'] = 'rtl';
+	
     $('#pager').text(questionText + ' ' + Number(currentquestion + 1) + ' ' + questionTextOf + ' ' + quiz.length);
     if (quiz[currentquestion].hasOwnProperty('Image') && quiz[currentquestion]['Image'] != "") {
         if ($('#question-Image').length == 0) {
@@ -162,6 +169,12 @@ function init() {
         $(document.createElement('p')).addClass('pager').attr('id', 'pager').text(questionText + ' 1 ' + questionTextOf + ' ' + quiz.length).appendTo('#frame');
         //add first question
         $(document.createElement('h2')).addClass('question').attr('id', 'question').text(quiz[0]['question']).appendTo('#frame');
+		firstChar = quiz[0]['question'][0]
+		if (firstChar.match('[a-zA-Z]'))
+			document.body.style['direction'] = 'ltr';
+		else
+			document.body.style['direction'] = 'rtl';
+		
         //add Image if present
         if (quiz[0].hasOwnProperty('Image') && quiz[0]['Image'] != "") {
             $(document.createElement('img')).addClass('question-Image').attr('id', 'question-Image').attr('src', quiz[0]['Image']).attr('alt', htmlEncode(quiz[0]['question'])).appendTo('#frame');
@@ -343,7 +356,7 @@ function initQuiz() {
     $("#genBulk").text('צפה בכל השאלות');
     $("#setQuizSize").text('הגדרת מספר שאלות בשאלון');
     $("#fetchingQ").text('טוען שאלות מהמסד..');
-    document.body.style = "text-align:right;unicode-bidi:bidi-override; direction:rtl;"
+    document.body.style = "text-align:right;unicode-bidi:bidi-override;"
     loadAllQuestions();
 }
 /************************************* MAIN **********************************************************/
