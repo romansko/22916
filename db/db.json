@@ -882,13 +882,13 @@
     "question" : "בתהליכים אינקרמנטליים מבנה המערכת עלול לאבד מאיכותו עם התקדמות הפיתוח ציינו שני נהלי עבודה או פעילויות של XP המתמודדות עם אתגר זה"
   }, {
     "choices" : {
-      "A" : "@Before",
-      "B" : "@Test",
-      "C" : "@BeforeClass",
-      "D" : "@Ignore"
+      "A" : "Before@",
+      "B" : "Test@",
+      "C" : "BeforeClass@",
+      "D" : "Ignore@"
     },
-    "correct" : "@Before",
-    "explanation" : "האנוטציה @Test היא זו שמאפשרת לכתוב בדיקות אך השאלה הייתה לגבי הדרישה isolated - כלומר שהבדיקות יהיו בלתי תלויות אחת בשניה, והתמיכה בכך מגיעה בעזרת האנוטציה @Before אשר מאפשרת להקים סביב נקייה ועצמאית לכל בדיקה.",
+    "correct" : "Before@",
+    "explanation" : "האנוטציה Test@ היא זו שמאפשרת לכתוב בדיקות אך השאלה הייתה לגבי הדרישה isolated - כלומר שהבדיקות יהיו בלתי תלויות אחת בשניה, והתמיכה בכך מגיעה בעזרת האנוטציה Before@ אשר מאפשרת להקים סביב נקייה ועצמאית לכל בדיקה.",
     "image" : "",
     "question" : "איזו אנוטציה של Junit מאפשרת לכתוב בדיקות יחידה אשר מקיימות את דרישת ה-isolated של XP?"
   }, {
@@ -1188,5 +1188,258 @@
     "explanation" : "",
     "image" : "",
     "question" : "אלו מההיגדים הבאים איננו משקף את גישתו של Martin Fowler לדרישת XP שהקוד 'יתעד את עצמו'?"
+  }, {
+    "choices" : {
+      "A" : "Functional Suitability",
+      "B" : "Compatibility",
+      "C" : "Security",
+      "D" : "Usability"
+    },
+    "correct" : "Functional Suitability",
+    "explanation" : "Functional Suitability (Functional Correctness)",
+    "image" : "",
+    "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: בעת סריקה מהירה של מוצרים, על המודל לזהות בצורה נכונה 80 מהמוצרים שנסרקו"
+  }, {
+    "choices" : {
+      "A" : "Performance efficiency",
+      "B" : "Usability",
+      "C" : "Reliability",
+      "D" : "Functional Suitability"
+    },
+    "correct" : "Performance efficiency",
+    "explanation" : "",
+    "image" : "",
+    "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: בעת סריקה מהירה של מוצרים, תתקבל תשובה מהמודל תוך לא יותר מ2 שניות"
+  }, {
+    "choices" : {
+      "A" : "Security",
+      "B" : "Reliability",
+      "C" : "Functional Suitability",
+      "D" : "Usability"
+    },
+    "correct" : "Security",
+    "explanation" : "",
+    "image" : "",
+    "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: מסד הנתונים בענן מכיל את הרגלי הצריכה של המשתמשים יש לשמור את המידע בצורה שאיננה מאפשרת גישה אליו מצד גורמים לא מורשים"
+  }, {
+    "choices" : {
+      "A" : "Reliability",
+      "B" : "Security",
+      "C" : "Usability",
+      "D" : "Compatibility"
+    },
+    "correct" : "Reliability",
+    "explanation" : "",
+    "image" : "",
+    "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: על המערכת להיות זמינה לשימוש (שליחת מיילים או קבלתם) לכל הפחות ב-95 מהזמן ביממה"
+  }, {
+    "choices" : {
+      "A" : "Portability",
+      "B" : "Performance Efficiency",
+      "C" : "Maintainability",
+      "D" : "Usability"
+    },
+    "correct" : "Portability",
+    "explanation" : "",
+    "image" : "",
+    "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: ניתן להתקין את המערכת במחשב האישי בקלות  תהליך ההתקנה יארך דקה לכל היותר"
+  }, {
+    "choices" : {
+      "A" : "Functional Suitability",
+      "B" : "Security",
+      "C" : "Usability",
+      "D" : "Compatibility"
+    },
+    "correct" : "Functional Suitability",
+    "explanation" : "",
+    "image" : "",
+    "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: כאשר שולחים מייל למשתמש A ומציינים את משתמש B ב'עותק נסתר', על המייל להגיע לשתי הכתובות, כאשר המשתמש A לא יראה שהמייל נשלח גם ל-B"
+  }, {
+    "choices" : {
+      "A" : "Compatibility",
+      "B" : "Functional Suitability",
+      "C" : "Usability",
+      "D" : "Portability"
+    },
+    "correct" : "Compatibility",
+    "explanation" : "",
+    "image" : "",
+    "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: מאחר ומשתמשים רבים משתמשים בשירות הדואר OUTLOOK, על המערכת החדשה לדעת לייבא את אנשי הקשר של OUTLOOK"
+  }, {
+    "choices" : {
+      "A" : "Maintainability",
+      "B" : "Compatibility",
+      "C" : "Portability",
+      "D" : "Usability"
+    },
+    "correct" : "Maintainability",
+    "explanation" : "",
+    "image" : "",
+    "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: יש לספק בנוסף למערכת עובדת גם תיעוד אשר יסביר את המחלקות העיקריות ואת הקשרים ביניהן"
+  }, {
+    "choices" : {
+      "A" : "Usability",
+      "B" : "Security",
+      "C" : "Functional Suitability",
+      "D" : "Reliability"
+    },
+    "correct" : "Usability",
+    "explanation" : "",
+    "image" : "",
+    "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: במידה והמשתמש מנסה לשלוח מייל לכתובת אימייל לא חוקית יש לספק הודעת שגיאה ברורה"
+  }, {
+    "choices" : {
+      "A" : "Performance Efficiency",
+      "B" : "Usability",
+      "C" : "Functional Suitability",
+      "D" : "Maintainability"
+    },
+    "correct" : "Performance Efficiency",
+    "explanation" : "",
+    "image" : "",
+    "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: כאשר המערכת מורידה כמות גדולה של מיילים מהשרת, יש לנצל בצורה אופטימלית את המשאבים החישוביים במחשב המקומי, ובפרט  לתמוך בעבודה מקבילית"
+  }, {
+    "choices" : {
+      "A" : "Reliability",
+      "B" : "Security",
+      "C" : "Usability",
+      "D" : "Functional Suitability"
+    },
+    "correct" : "Reliability",
+    "explanation" : "",
+    "image" : "",
+    "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: בנוסף על שמירת נתוני המיילים 'בענן', על המערכת לגבות את הנתונים כדי למנוע איבודם"
+  }, {
+    "choices" : {
+      "A" : "Usability",
+      "B" : "Compatibility",
+      "C" : "Functional Suitability",
+      "D" : "Portability"
+    },
+    "correct" : "Usability",
+    "explanation" : "",
+    "image" : "",
+    "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: על ממשק המשתמש להיות נגיש בכמה שפות: עברית, אנגלית, ערבית, ורוסית המשתמש יוכל להחליף שפה כרצונו"
+  }, {
+    "choices" : {
+      "A" : "לא נכון",
+      "B" : "נכון",
+      "C" : "",
+      "D" : ""
+    },
+    "correct" : "לא נכון",
+    "explanation" : "",
+    "image" : "",
+    "question" : "בתכנון אג'ילי הלקוח והפיתוח מגדירים את סיפורי המשתמש"
+  }, {
+    "choices" : {
+      "A" : "נכון",
+      "B" : "לא נכון",
+      "C" : "",
+      "D" : ""
+    },
+    "correct" : "נכון",
+    "explanation" : "",
+    "image" : "",
+    "question" : "ב-Planning game של XP מתכננים את הגרסה הבאה ולא רק את האיטרציה הבאה"
+  }, {
+    "choices" : {
+      "A" : "נכון",
+      "B" : "לא נכון",
+      "C" : "",
+      "D" : ""
+    },
+    "correct" : "נכון",
+    "explanation" : "",
+    "image" : "",
+    "question" : "בתכנון האיטרציה משתתפים המפתחים בלבד"
+  }, {
+    "choices" : {
+      "A" : "1",
+      "B" : "2",
+      "C" : "3",
+      "D" : "4"
+    },
+    "correct" : "1",
+    "explanation" : "img/fixsoft.png",
+    "image" : "",
+    "question" : "יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה במהלך ריצת המערכת, בה המפתח עורך קובץ JAVA אחד בלבד, כמה אובייקטים יש למחלקה ConcreteSubject?"
+  }, {
+    "choices" : {
+      "A" : "3",
+      "B" : "1",
+      "C" : "2",
+      "D" : "4"
+    },
+    "correct" : "3",
+    "explanation" : "img/fixsoft.png",
+    "image" : "",
+    "question" : "יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה במהלך ריצת המערכת, בה המפתח עורך קובץ JAVA אחד בלבד, כמה אובייקטים יש למחלקה ConcreteObserver?"
+  }, {
+    "choices" : {
+      "A" : "3",
+      "B" : "1",
+      "C" : "2",
+      "D" : "4"
+    },
+    "correct" : "3",
+    "explanation" : "img/fixsoft.png",
+    "image" : "",
+    "question" : "יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה במהלך ריצת המערכת, בה המפתח עורך קובץ JAVA אחד בלבד, כמה פעמים נקראת המתודה attach?"
+  }, {
+    "choices" : {
+      "A" : "notify, update, getState",
+      "B" : "notify, attach, update",
+      "C" : "notify, detach, update",
+      "D" : "notify, attach, update, getState"
+    },
+    "correct" : "notify, update, getState",
+    "explanation" : "img/fixsoft.png",
+    "image" : "",
+    "question" : "יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה כאשר המפתח (המשתמש במערכת) מעדכן את קוד מחלקת הJAVA בעורך, אלו מתודות נקראות?"
+  }, {
+    "choices" : {
+      "A" : "לא נכון",
+      "B" : "נכון",
+      "C" : "",
+      "D" : ""
+    },
+    "correct" : "לא נכון",
+    "explanation" : "אפשר בהחלט לכתוב באמצעותה בדיקות רכיבים ואף בדיקות קבלה אוטומטיות",
+    "image" : "",
+    "question" : "הספרייה JUnit מיועדת לכתיבת בדיקות יחידה בלבד"
+  }, {
+    "choices" : {
+      "A" : "לא נכון",
+      "B" : "נכון",
+      "C" : "",
+      "D" : ""
+    },
+    "correct" : "לא נכון",
+    "explanation" : "",
+    "image" : "",
+    "question" : "בעת הרצת מחלקת בדיקה, מתודה (פונקציה) המסומנת עם BeforeClass עשויה לרוץ מספר פעמים"
+  }, {
+    "choices" : {
+      "A" : "נכון",
+      "B" : "לא נכון",
+      "C" : "",
+      "D" : ""
+    },
+    "correct" : "נכון",
+    "explanation" : "",
+    "image" : "",
+    "question" : "בעת הרצת מחלקת בדיקה, מתודה (פונקציה) המסומנת עם After עשויה לרוץ מספר פעמים"
+  }, {
+    "choices" : {
+      "A" : "לא נכון",
+      "B" : "נכון",
+      "C" : "",
+      "D" : ""
+    },
+    "correct" : "לא נכון",
+    "explanation" : "סימון מתודות ולא משתנים",
+    "image" : "",
+    "question" : "הסימון Test מיועד לסימון משתני בדיקה בקוד"
   }  ]
 }
