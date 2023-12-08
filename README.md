@@ -10,6 +10,13 @@ Simply go to [https://romansko.github.io/22916](https://romansko.github.io/22916
 
 <br/>
 
+## Troubleshooting
+
+Have you encountered a bug? Feel free to pull request. 
+
+Have you encountered a wrong answer to a quiz question? Feel free to pull request [db.json](https://github.com/Romansko/22916/blob/main/db/db.json).
+
+<br/>
 
 ## QuizApp Template
 
