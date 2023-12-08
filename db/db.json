@@ -31,7 +31,7 @@
     },
     "correct" : "This testing type actually determines if a new software version is performing well enough to accept it for a major testing effort.",
     "explanation" : "This testing type actually determines if a new software version is performing well enough to accept it for a major testing effort.",
-    "image" : "http://www.softwaretestingclass.com/wp-content/uploads/2012/06/sanity-testing.jpg",
+    "image" : "",
     "question" : "What is SANITY Testing?"
   }, {
     "choices" : {
@@ -75,7 +75,7 @@
     },
     "correct" : "Changing a piece of code without changing its functionality.",
     "explanation" : "The definition is changing a piece of code without changing its functionality.",
-    "image" : "https://cdn.lynda.com/course/122457/122457-636366821633490534-16x9.jpg",
+    "image" : "",
     "question" : "Refactoring is:"
   }, {
     "choices" : {
@@ -86,7 +86,7 @@
     },
     "correct" : "An external dependency is a situation when an object in system interacts with code under test and you have no control on this.",
     "explanation" : "An external dependency is a situation when an object in system interacts with code under test and you have no control on this.",
-    "image" : "https://codeopinion.com/wp-content/uploads/2015/02/dependencies.png",
+    "image" : "",
     "question" : "What does external dependency mean?"
   }, {
     "choices" : {
@@ -119,7 +119,7 @@
     },
     "correct" : "Debugging is a process that includes the following: 1. establishing exact reason and location of the error in the program and 2. fixing this error.",
     "explanation" : "Debugging is a 2 phase process that includes the following: 1. establishing exact reason and location of the error in the program and 2. fixing this error.",
-    "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb8lEfesgRbJPYU3CMPG-xYtV8dpLPw93JPq5Ev_JQihxYOenzTg",
+    "image" : "",
     "question" : "What is debugging?"
   }, {
     "choices" : {
@@ -231,17 +231,6 @@
     "explanation" : "There's no such thing a drum development model!",
     "image" : "",
     "question" : "Which of the below is NOT a valid development model?"
-  }, {
-    "choices" : {
-      "A" : "The V development model.",
-      "B" : "The Waterfall development model.",
-      "C" : "The Spiral development model.",
-      "D" : "The W development model."
-    },
-    "correct" : "The V development model.",
-    "explanation" : "This is the V Development model.",
-    "image" : "https://serving.photos.photobox.com/3988027826e4270e98b4d954de4ebaf3bd5dc8cfe0707e0bee2cfb08e2a322078a146c5d.jpg",
-    "question" : "What development model is described in the picture?"
   }, {
     "choices" : {
       "A" : "Users, stakeholders, development team.",
