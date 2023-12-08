@@ -405,7 +405,7 @@
     },
     "correct" : "Modifiability",
     "explanation" : "",
-    "image" : "img/maintainability.png",
+    "image" : "https://github.com/Romansko/22916/blob/main/img/maintainability.png",
     "question" : "חבילת הבדיקות האוטומטיות ב-XP קשורה באופן הדוק ליכולת לבצע Refactoring בפרויקט איזו תת קטגוריה של הדרישה הלא-פונקציונאלית 'תחזוקתיות' (Maintainability) באה לידי ביטוי הודות לקשר הזה? (מתוך התקן ISO 25010)"
   }, {
     "choices" : {
@@ -559,7 +559,7 @@
     },
     "correct" : "Modularity",
     "explanation" : "",
-    "image" : "img/maintainability.png",
+    "image" : "https://github.com/Romansko/22916/blob/main/img/maintainability.png",
     "question" : "איזו תת קטגוריה של הדרישה הלא-פונקציונאלית 'תחזוקתיות' (Maintainability) באה לידי ביטוי בעיקר במעבר מארכיטקטורה מונוליטית לארכיטקטורת מיקרו-שירותים? (מתוך התקן ISO 25010)"
   }, {
     "choices" : {
@@ -1350,7 +1350,7 @@
       "D" : "4"
     },
     "correct" : "1",
-    "explanation" : "img/fixsoft.png",
+    "explanation" : "https://github.com/Romansko/22916/blob/main/img/fixsoft.png",
     "image" : "",
     "question" : "יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה במהלך ריצת המערכת, בה המפתח עורך קובץ JAVA אחד בלבד, כמה אובייקטים יש למחלקה ConcreteSubject?"
   }, {
@@ -1361,7 +1361,7 @@
       "D" : "4"
     },
     "correct" : "3",
-    "explanation" : "img/fixsoft.png",
+    "explanation" : "https://github.com/Romansko/22916/blob/main/img/fixsoft.png",
     "image" : "",
     "question" : "יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה במהלך ריצת המערכת, בה המפתח עורך קובץ JAVA אחד בלבד, כמה אובייקטים יש למחלקה ConcreteObserver?"
   }, {
@@ -1372,7 +1372,7 @@
       "D" : "4"
     },
     "correct" : "3",
-    "explanation" : "img/fixsoft.png",
+    "explanation" : "https://github.com/Romansko/22916/blob/main/img/fixsoft.png",
     "image" : "",
     "question" : "יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה במהלך ריצת המערכת, בה המפתח עורך קובץ JAVA אחד בלבד, כמה פעמים נקראת המתודה attach?"
   }, {
@@ -1383,7 +1383,7 @@
       "D" : "notify, attach, update, getState"
     },
     "correct" : "notify, update, getState",
-    "explanation" : "img/fixsoft.png",
+    "explanation" : "https://github.com/Romansko/22916/blob/main/img/fixsoft.png",
     "image" : "",
     "question" : "יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה כאשר המפתח (המשתמש במערכת) מעדכן את קוד מחלקת הJAVA בעורך, אלו מתודות נקראות?"
   }, {

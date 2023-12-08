@@ -244,7 +244,7 @@ Testability
 Modularity
 Reusability
 $
-img/maintainability.png
+https://github.com/Romansko/22916/blob/main/img/maintainability.png
 ;
 במהלך אפיון מערכת תוכנה המיועדת לנהגי אוטובוס טענה דניאלה מהפיתוח: "הלקוחות שלנו לא יודעים להגדיר כראוי את הדרישות, הם לא מבינים איך נהגים עובדים ומה היכולות שהם צריכים באמת בזמן הנסיעה!". איזו טכניקה לגילוי דרישות עשויה להתאים לסיטואציה? במידה וכמה טכניקות יכולות להתאים, יש לבחור את זו המתאימה ביותר.
 תצפיות
@@ -339,7 +339,7 @@ Modifiability
 Analysability
 Reusability
 $
-img/maintainability.png
+https://github.com/Romansko/22916/blob/main/img/maintainability.png
 ;
 ב-XP סיפורי המשתמש לרוב אינם מספקים את כל הפרטים הדרושים לשם מימושם.
 נכון
@@ -797,28 +797,28 @@ $
 2
 3
 4
-img/fixsoft.png
+https://github.com/Romansko/22916/blob/main/img/fixsoft.png
 ;
 יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה. במהלך ריצת המערכת, בה המפתח עורך קובץ JAVA אחד בלבד, כמה אובייקטים יש למחלקה ConcreteObserver?
 3
 1
 2
 4
-img/fixsoft.png
+https://github.com/Romansko/22916/blob/main/img/fixsoft.png
 ;
 יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה. במהלך ריצת המערכת, בה המפתח עורך קובץ JAVA אחד בלבד, כמה פעמים נקראת המתודה attach?
 3
 1
 2
 4
-img/fixsoft.png
+https://github.com/Romansko/22916/blob/main/img/fixsoft.png
 ;
 יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה. כאשר המפתח (המשתמש במערכת) מעדכן את קוד מחלקת הJAVA בעורך, אלו מתודות נקראות?
 notify, update, getState
 notify, attach, update
 notify, detach, update
 notify, attach, update, getState
-img/fixsoft.png
+https://github.com/Romansko/22916/blob/main/img/fixsoft.png
 ;
 הספרייה JUnit מיועדת לכתיבת בדיקות יחידה בלבד
 לא נכון
