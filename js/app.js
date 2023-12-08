@@ -351,7 +351,7 @@ function initQuiz() {
     correctText = 'נכון';
     wrongText = 'לא נכון'
     qInDB = 'סה"כ שאלות במסד: ';
-    notEnoughQuestionMessage = 'אין מספיק שאלות במסד הנתונים בשביל למלא  ' + qInQuiz +  'שאלות בשאלון.';
+    notEnoughQuestionMessage = 'אין מספיק שאלות במסד הנתונים בשביל למלא  ' + qInQuiz +  ' שאלות בשאלון.';
     $("#newquiz").text('טען שאלון חדש');
     $("#genBulk").text('צפה בכל השאלות');
     $("#setQuizSize").text('הגדרת מספר שאלות בשאלון');

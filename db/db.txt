@@ -1,0 +1,442 @@
+What is Unit Testing?
+Testing of individual software components or modules. Typically, is done by the programmer.
+Testing of individual software components or modules. Typically, it is performed by qualified testers.
+Testing of several classes and methods. It's performed by tester.
+Testing of some method. It's performed by qualified tester.
+Unit Testing is Testing of individual software components or modules. Typically, is done by the programmer.
+;
+What is Functional Testing?
+This type of testing ignores the internal parts and focus on the output is as per requirement or not.
+This is a type of black-box testing. It takes into account the internal parts and focus on the output is as per requirement.
+This type of testing ignores the internal parts and focus on a defined output. This is are WhiteBox Testing.
+This is a type of black-box testing. It considers the internal parts of a program and focus on the output as per requirement.
+This type of testing ignores the internal parts and focus on the output is as per requirement or not. Functional Tests are BlackBox Tests.
+;
+What is SANITY Testing?
+This testing type actually determines if a new software version is performing well enough to accept it for a major testing effort.
+This is testing of general parts of developed system.
+This is a type of black-box testing of several modules of developed system.
+None of these.
+This testing type actually determines if a new software version is performing well enough to accept it for a major testing effort.
+http://www.softwaretestingclass.com/wp-content/uploads/2012/06/sanity-testing.jpg
+;
+Difference between load and stress testing is:
+Load test is focused on checking system behavior under heavy load to define a point of system's response time degradation/fails. Stress testing is focused on checking capability of hardware.
+Load test is focused on checking system behavior under heavy load to define a point of Database's response time degradation/fails. Stress testing is focused on checking capability of databases.
+Load test checks capability of computer resources but stress test examines maximal load of the system.
+No difference between these types of testing. Both them are performance testing.
+Load test is focused on checking system behavior under heavy load to define a point of system's response time degradation/fails. Stress testing is focused on checking capability of hardware.
+;
+Validation and Verification:
+A. Verification - the process of checking whether the products of a given phase of the software development process fulfill the requirements established on previous phase. Validation answer on the question "Are we building the right product?" and involves comparison against requirements.
+B. Validation - the process of checking whether the products of a given phase of the software development process fulfill the requirements established on previous phase. Verification - comparison if a system satisfies requirements.
+C. Validation and verification are testing processes.
+D. B + C are correct.
+Validation - "Are we building the right product?". Verification - "Are we building the product right?".
+;
+API testing:
+Testing of a set of functions and procedures that allow an access to the features or data of an application/system.
+It's type of grey-box testing.
+It's testing of GUI.
+API testing checks how some software components should interact each other.
+API Tesing is Testing of a set of functions and procedures that allow an access to the features or data of an application/system.
+;
+Refactoring is:
+Changing a piece of code without changing its functionality.
+Removing dead and unnecessary code.
+Changing a code to do it more understandable
+Rewriting a piece of code to do it user friendly.
+The definition is changing a piece of code without changing its functionality.
+https://cdn.lynda.com/course/122457/122457-636366821633490534-16x9.jpg
+;
+What does external dependency mean?
+An external dependency is a situation when an object in system interacts with code under test and you have no control on this.
+It's external to an application component like package or library.
+It's connection between developed system and a specific application.
+None of these.
+An external dependency is a situation when an object in system interacts with code under test and you have no control on this.
+https://codeopinion.com/wp-content/uploads/2015/02/dependencies.png
+;
+What is a stub and a mock object and what is the difference between them?
+A mock object is a fake object in the system that concludes whether the unit test has passed or failed. A stub is a controllable replacement for an existing dependency in the system. Usually there is one mock and one or several stubs per test.
+Stub and mock are fake objects used for testing of a program. There is no big difference between these objects.
+A mock is external fake object that can't fail a test. A stub is a piece a code that presents some functionality. a stub may fail a test.
+all are correct.
+A mock object is a fake object in the system that concludes whether the unit test has passed or failed. A stub is a controllable replacement for an existing dependency in the system. Usually there is one mock and one or several stubs per test. Stub never fails tests.
+;
+What may create problems by using constructor-based dependency injection technique?
+Code under test may require a lot of stubs to work correctly without dependencies.
+A code has a lot of classes.
+There is only one defined constructor per class.
+A default constructor doesn't have parameters.
+Code under test may require a lot of stubs to work correctly without dependencies.
+;
+What is debugging?
+Debugging is a process that includes the following: 1. establishing exact reason and location of the error in the program and 2. fixing this error.
+Debugging is a process of fixing failures of system.
+Debugging is a process of finding errors with helping tools.
+Debugging is scattering a lot of print statements untill we find the error.
+Debugging is a 2 phase process that includes the following: 1. establishing exact reason and location of the error in the program and 2. fixing this error.
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb8lEfesgRbJPYU3CMPG-xYtV8dpLPw93JPq5Ev_JQihxYOenzTg
+;
+What is deduction debugging strategy?
+1. Identifying the possible causes or hypotheses. 2. Eliminating possible causes using the data. 3. Refining the hypothesis. 4. Proving the hypothesis.
+1. Collecting relevant data. 2. Eliminating possible causes using the data. 3. Proving the hypothesis.
+1. Collecting relevant data. 2. Analysis collected data. 3. Defining hypothesis. 4. Eliminating possible causes using the data. 5. Proving the hypothesis.
+1. Locating the relevant data. 2. Devising a hypothesis. 3. Proving the hypothesis.
+Deduction consists of 1. Identifying the possible causes or hypotheses. 2. Eliminating possible causes using the data. 3. Refining the hypothesis. 4. Proving the hypothesis.
+;
+What is induction debugging strategy?
+1. Locating the relevant data. 2. Organizing the data. 3. Devising a hypothesis. 4. Prove the hypothesis.
+1. Collecting relevant data. 2. Eliminating possible causes using the data. 3. Proving the hypothesis.
+1. Collecting the relevant data. 2. Devising a hypothesis. 3. Eliminating non-necessary data. 4. Prove the hypothesis.
+1. Locating the relevant data. 2. Devising a hypothesis. 3. Proving the hypothesis.
+Induction consists of 1. Locating the relevant data. 2. Organizing the data. 3. Devising a hypothesis. 4. Prove the hypothesis.
+;
+What is "Postmortem Analysis" in software?
+A. A project post-mortem, also called a project retrospective, is a process for evaluating the success (or failure) of a project's ability to meet business goals. It's performed at end of each development stage.
+B. A project post-mortem is a process of checking conforming final project to user's requirements.
+C. A project post-mortem is a process for evaluating the success (or failure) of a project's ability to meet business goals. It's performed after project finish.
+D. A + C are correct.
+A project post-mortem, also called a project retrospective, is a process for evaluating the success (or failure) of a project's ability to meet business goals. It's performed at end of each development stage and after project finish.
+data:image/jpeg;base64,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
+;
+A program validates a numeric field as follows: values less than 10 are rejected, values between 10 and 21 are accepted, values greater than or equal to 22 are rejected. Which of the following input values cover all of the equivalence partitions?
+3, 10, 22
+10, 11, 21
+3, 20, 21
+10, 21, 22
+If you are wrong, It's highly recommended to draw a table..
+;
+What is Decision Table?
+Decision Table is the method used to build a complete set of test cases without using the internal structure of the program in question.
+Decision Table is the method used to build a complete set of test cases based on usage of the internal structure of the program.
+Decision Table is the framework used to build a complete set of test cases based on usage of the internal structure of the program.
+Decision Table is one of the methods of white-box testing.
+Decision Table is the method used to build a complete set of test cases without using the internal structure of the program in question.
+;
+What is difference between software inspection method and walkthrough one?
+Difference is in meeting execution and a participated staff.
+There is a difference in examined documents type.
+The difference is expressed in performing testing.
+The difference is in types of checklists and examined documents.
+Difference is in meeting execution and a participated staff.
+;
+With white-box testing:
+You run the code with predetermined input and check that the code produces predetermined outputs.
+You test boundary conditions and output of a program.
+You test specific complicated algorithms.
+None of these.
+You run the code with predetermined input and check that the code produces predetermined outputs.
+;
+What is cyclomatic number?
+It is the number of independent paths.
+It's number of paths in a code.
+It's a number of conditionals/predicates in a code.
+It's a number of code lines plus 1.
+Cyclomatic number is the number of independent paths or number of conditionals/predicates in a code +1!
+;
+What are the seven stages of development process?
+Requirements, Objectives, External Specifications, System Design, Program Structure Design, Module Interface Specifications, Code.
+Requirements, External Specifications, Objectives, Program Structure Design,System Design, Module Interface Specifications, Code.
+Code, Requirements, Objectives, External Specifications, System Design, Program Structure Design, Module Interface Specifications.
+Requirements, External Specifications, Objectives, System Design, Program Structure Design, Module Interface Specifications, Code.
+The right order is Requirements, Objectives, External Specifications, System Design, Program Structure Design, Module Interface Specifications, Code.
+;
+Which of the below is NOT a valid development model?
+The drum development model.
+The V development model.
+The Spiral development model.
+Every model is valid.
+There's no such thing a drum development model!
+;
+What development model is described in the picture?
+The V development model.
+The Waterfall development model.
+The Spiral development model.
+The W development model.
+This is the V Development model.
+https://serving.photos.photobox.com/3988027826e4270e98b4d954de4ebaf3bd5dc8cfe0707e0bee2cfb08e2a322078a146c5d.jpg
+;
+In Agile/Scrum development methodology, responsible for creating Product Backlog are:
+Users, stakeholders, development team.
+Users, stakeholders, scrum master, management.
+Users, management, scrum master, development team.
+Users, investors, management, quality assurance team.
+;
+Difference between Agile (Ag) and Waterfall (Wat) models in the product deliverability aspect:
+Ag - delivered in increasing level of whole development period. Wat - delivered in the end of the development period.
+None is correct.
+Ag - delivered in the same level of whole development period. Wat - delivered only in the end of the development period.
+Ag - delivered in the middle and in the end of the development period. Wat - delivered in the end of the development period.
+;
+Difference between Agile (Ag) and Waterfall (Wat) models in the Grade of Failure Change (GFC) aspect:
+Ag - the higher level in the beginning and reduced in the final stage, Wat - in the increasing level from start to finish.
+Ag - GFC is the same level during whole development period, Wat - high in the middle period.
+Ag - the low level in the beginning and increasing one in the final stage, Wat - in the reducing level from start to finish.
+Ag - the high level in the beginning and almost zero in the final stage, Wat - in the reducing level from start to finish.
+;
+Difference between Agile (Ag) and Waterfall (Wat) models in the Project Run Rate aspect:
+Ag - the same for all period, Wat - higher in the final development period.
+None is correct.
+Ag - increasing iteratively for all period, Wat - higher in the final development period.
+Ag - the same for all period, Wat - higher in the final development period.
+;
+What is not ERROR definition:
+Error - An incorrect internal state of the system.
+Error- A static defect in the software.
+Error - The actual 'mistake' in the code.
+Error - An incorrect syntax of a code.
+;
+Difference between software fault and failure is:
+Fault is the incorrect state in the system that results from the error. Failure is the deviation from expected behavior observed by the user.
+Fault demonstrates the bad state in the system because of an existing error. Failure demonstrate external incorrect state of the system.
+Failure is internal incorrect behavior with respect to the requirements. Fault presents external result of the error.
+Fault is internal incorrect behavior with respect to the requirements. Failure presents external result of the error.
+;
+Which sentence below are correct regarding to Microsoft Fakes framework (MFf)?
+MFf helps to isolate the testing code by replacing other parts of the application with fake objects.
+MFf helps to test the code you are developing by introducing interfaces to the code of tests.
+MFf helps in refactoring the code you are testing by using interfaces.
+All are correct.
+;
+Infeasible test requirements are:
+Test requirements for a dead code.
+Requirements that may be satisfied.
+The situation when no test cases that meet the test requirements of a dead code exist.
+All are correct.
+;
+What is Indirect Input?
+Indirect Input are updated parameters of procedures or subroutines.
+The situation when the behavior of the SUT is affected by the values returned by another component whose services it uses.
+Both answers are correct.
+None are Correct.
+;
+What does it mean - "Methods should have strong cohesion"?
+It is the situation when a method should address single task and does it well and also should have clear intent.
+It is the situation when a method addresses several tasks in the same time.
+It is the situation when a method should perform one or several tasks efficiently.
+It is the situation when a method should perform several tasks simultaneously.
+;
+What is "Test Double"?
+It's a test in which we replace the real DOC on a mock one.
+It's a test which we created from another one.
+It's a test which we created from another one and performed code refactoring.
+It's a test in which we replace using of concrete class on using an interface.
+;
+Which sentence about Decision Table is incorrect?
+In Decision Table input conditions are assumed to be independent.
+Decision Table represents correlation between input conditions and output actions.
+A rule (column) represents correctness of input conditions.
+Two rules (columns) can correspond to the same output actions.
+;
+What can be the reason of deadlock in debugging by induction process?
+Multiple bugs influence to the results of executed tests.
+Not enough tests.
+Considering oftest cases related to different parts of the program.
+All proposed hypotheses are rejected in process of their proving.
+;
+An application calculates a water consumption during the considered month. The input consists of two integer values: a month and a year. In the database there exist data from year 2000. What is a number of test cases obtained by using equivalence partition approach?
+5
+4
+3
+6
+Pay attention: valid month and valid year are in the same input partition - the valid partition
+;
+בתהליכים אג'יליים יש חשיבות לעמידה בולידציה (validation) אך יש גדולה יותר לעמידה בוריפיקציה (verification).
+לא נכון
+נכון
+$
+$
+להיפך, תהליכים אג'יליים מדגישים יותר ולידציה (עמידה בצרכי הלקוח) מאשר וריפיקציה (עמידה בדרישות שהוגדרו).
+;
+חבילת הבדיקות האוטומטיות ב-XP קשורה באופן הדוק ליכולת לבצע Refactoring בפרויקט. איזו תת קטגוריה של הדרישה הלא-פונקציונאלית "תחזוקתיות" (Maintainability) באה לידי ביטוי הודות לקשר הזה? (מתוך התקן ISO 25010).
+Modifiability
+Testability
+Modularity
+Reusability
+$
+img/maintainability.png
+;
+במהלך אפיון מערכת תוכנה המיועדת לנהגי אוטובוס טענה דניאלה מהפיתוח: "הלקוחות שלנו לא יודעים להגדיר כראוי את הדרישות, הם לא מבינים איך נהגים עובדים ומה היכולות שהם צריכים באמת בזמן הנסיעה!". איזו טכניקה לגילוי דרישות עשויה להתאים לסיטואציה? במידה וכמה טכניקות יכולות להתאים, יש לבחור את זו המתאימה ביותר.
+תצפיות
+Use cases
+ראיונות
+תרחישים
+מי שסימן 'ראיונות' קיבל חצי ניקוד. בגלל שכתוב 'בזמן הנסיעה'  אזי השימוש בתצפיות נכון יותר.
+;
+תפקיד ה-Activation Bar בדיאגרמה מסוג Sequence Diagram הוא לציין את חיי האובייקט, מרגע יצירתו ועד לפינוי שלו מהמערכת.
+לא נכון
+נכון
+$
+$
+הBAR מציין את משך הזמן בו האובייקט פעיל באינטראקציה ולא בהכרח את זמן החיים שלו.
+;
+בדיאגרמת מחלקות, מהו סוג הקשר המתאים ביותר לתיאור היחס בין מחלקה המתארת "מילה" (Word) לבין מחלקה המתארת "תו" (Character)?
+Aggregation
+Association
+Inheritance
+Composition
+היחס composition איננו מתאים כיוון שתו (char) יכול להתקיים גם בפני עצמו.
+;
+אחד מה-practices של XP בשלב הארכיטקטורה נקרא Metaphor. באיזה ערך של XP הוא בא לתמוך?
+Communication
+Feedback
+Simplicity
+Courage
+;
+עבור תיאור המערכת הבא, ובהתאם לשיטה לזיהוי מחלקות מבוססת ניתוח דקדוקי (Grammatical Analysis), סמנו את הטענה הנכונה. "על כל סטודנט להירשם לשני קורסי מבוא בסמסטר הראשון, ולכל היותר להירשם לקורס אחד מתקדם."
+ניתן לזהות 6 מחלקות ושדות, ופעולה אחת.
+ניתן לזהות 5 מחלקות ושדות, ופעולה אחת.
+ניתן לזהות 7 מחלקות ושדות, ופעולה אחת.
+ניתן לזהות 8 מחלקות ושדות, ופעולה אחת.
+שמות עצם ותארים (מחלקות, שדות): 'סטודנט', 'קורסי', 'מבוא', 'בסמסטר', 'הראשון'. פועל (פעולה): 'להירשם'.
+;
+אלו מהטענות הבאות נכונה לגבי גישת התכן של XP?
+עקומת שינוי התוכנה סותרת את גישת XP בעיקר בשלבים המתקדמים של הפרויקט.
+עקומת שינוי התוכנה מאששת את גישת XP בעיקר בשלבים המתקדמים של הפרויקט.
+עקומת שינוי התוכנה סותרת את גישת XP בעיקר בשלבים הראשונים של הפרויקט.
+עקומת שינוי התוכנה מאששת את גישת XP לאורך כל הפרויקט.
+;
+אלו מהטענות הבאות נכונה בנוגע ליחס בין בדיקות גרסה (Release tests) לבין בדיקות קבלה (acceptance tests)?
+לשתי הבדיקות מטרה דומה, והן מתבצעות על ידי גורמים שונים.
+לשתי הבדיקות מטרה שונה, אך הן מתבצעות על ידי אותו הגורם.
+לשתי הבדיקות מטרה שונה, והן מתבצעות על ידי גורמים שונים.
+לשתי הבדיקות מטרה דומה, והן מתבצעות על ידי אותו הגורם.
+המטרה דומה: לבחון שהמערכת בכללותה עומדת בדרישות שהוגדרו, הגורמים שונים: הגוף המפתח לעומת הלקוח. נקבל גם את התשובה '..מטרה שונה..גורמים שונים' מאחר ובדיקות הגרסה מטרתן לשכנע את הגורם המפתח ובדיקות הקבלה מטרתן לשכנע את הלקוח ולכן אם המטרה מוגדרת על ציר זה אזי היא שונה.
+;
+שאלה: XP קורא ליצירה של חבילת בדיקות יחידה אוטומטיות (Test Suite). בפרויקט נתון יש 3 מחלקות בדיקה, כאשר בכל מחלקה מוגדרות 20 מתודות של JUnit (עם האנוטציה @Test). ברצוננו להגדיר חבילת בדיקה אחת הכוללת את כל 60 המתודות. כמה אנוטציות נוספות של JUnit עלינו להגדיר לשם כך?
+2
+1
+3
+5
+יש להגדיר מחלקה אחת ריקה עם אנוטציה RunWith ו-SuiteClasses.
+;
+באיזה חלק של ניהול התצורה תומך מנגנון ה-Issues של גיטהאב באופן ישיר?
+Change management
+Version management
+System building
+Release management
+;
+לדני יש רעיון לפיצ'ר חדש ונועז למערכת עליה הוא עובד. הוא מעוניין במנגנון אשר יאפשר לו "לזרוק" את הקוד של הפיצ'ר החדש במידה והוא לא יעלה יפה. כתבו שתי פקודות שונות של git אשר יכולות לסייע לו.
+git tag, git branch
+git commit, git stash
+git commit, git push
+git stash, git push
+התקבלו תשובות נוספות שיכולות להיות גם רלוונטיות.
+;
+ב-XP נוקטים גישה מינימליסטית לכתיבה של תיעוד מוצר ושל תיעוד משתמש, ואפילו מעודדים לא לייצר תיעוד כנ"ל אלא להסתפק בקוד ובמוצר "המתעד את עצמו".
+לא נכון
+נכון
+$
+$
+זה נכון לגבי תיעוד מוצר אך ודאי לא לגבי תיעוד משתמש ולכן האמירה בכללותה איננה נכונה.
+;
+איזה סוג של פתרונות שימוש מחדש מתאפיין בשימוש תדיר בעיקרון של Inversion of Control?
+Application Frameworks
+Libraries
+Product Lines
+COTS
+;
+ב-XP, בדיקות הלקוח (Customer Tests) מבצעות ולידציה (validation) למערכת המפותחת.
+לא נכון
+נכון
+$
+$
+בדיקות הלקוח מפותחות על סמך סיפורי המשתמש ולכן הן מבצעות וריפיקציה ולא ולידציה. הולידציה מתבצעת באמצעות קשר עם המשתמשים.
+;
+איזו תת קטגוריה של הדרישה הלא-פונקציונאלית "תחזוקתיות" (Maintainability) באה לידי ביטוי בעיקר במעבר מארכיטקטורה מונוליטית לארכיטקטורת מיקרו-שירותים? (מתוך התקן ISO 25010).
+Modularity
+Modifiability
+Analysability
+Reusability
+$
+img/maintainability.png
+;
+ב-XP סיפורי המשתמש לרוב אינם מספקים את כל הפרטים הדרושים לשם מימושם.
+נכון
+לא נכון
+$
+$
+;
+אלו מהאמירות הבאות נכונה עבור שימוש ב-fork בדיאגרמה מסוג Activity Diagram?
+במערכת הממומשת נמצא אולי קוד מקבילי
+במערכת הממומשת נמצא בהכרח קוד מקבילי
+במערכת הממומשת לא נמצא קוד מקבילי
+אף תשובה אינה נכונה
+;
+בדיאגרמת מחלקות, מהו סוג הקשר המתאים ביותר לתיאור היחס בין חתול והזנב שלו?
+Composition
+Association
+Inheritance
+Aggregation
+היחס aggregation איננו מתאים כיוון שהזנב איננו יכול להתקיים בפני עצמו.
+;
+היכולת להגדיר Superstate מרחיבה את יכולת הביטוי (expressiveness) של הדיאגרמה מסוג Statechart (כלומר, בעזרת היכולת ניתן למדל סוגים נוספים של מערכות).
+לא נכון
+נכון
+$
+$
+יכולת זו עושה את הדיאגרמה קריאה יותר אך לא מרחיבה את יכולת הביטוי של הדיאגרמה. היא לא נותנות לנו אפשרות למדל מערכות אשר לא היינו יכולים למדל בלעדיה.
+;
+איזה מנהלי העבודה הבאים של XP איננו קשור באופן ישיר לארכיטקטורת המערכת?
+Continuous integration
+Metaphor
+Exploration phase
+Planning game
+הקשר למשחק התכנון: בחירת הסיפורים לאיטרציה הראשונה כך שיהוו את שלד המערכת.
+;
+קנט בק מסביר כי "לימוד נהיגה" היא מטפורה המתאימה לתיאור תהליך ה-design של XP. בדומה ללימוד נהיגה, גם ב-XP מתחילים מיד "לנסוע", ואז "מכוונים את המכונית" תוך כדי הנסיעה "מעט לשם ומעט לשם". למה קנט בק התכוון בשני הביטויים המודגשים?
+לנסוע = קידוד, "מכוונים את המכונית" = refactoring
+לנסוע = קידוד, "מכוונים את המכונית" = coding standards
+לנסוע = קידוד, "מכוונים את המכונית" = testing
+לנסוע = קידוד, "מכוונים את המכונית" = continuous integration
+;
+בפרויקט פיתוח גדול נוצר בזבוז זמן עקב המתנה ממושכת של צוותים אחד לשני להשלמת מימוש בו היו תלויים. איזו פעולת תכנון ככל הנראה הוזנחה או לא נעשתה כראוי?
+Interface Specification
+Use Case Modeling
+Design for COTS
+Planning Game
+זאת הפעילות המרכזית הקשורה לתיאום הדרוש בין צוותי פיתוח שונים.
+;
+אלו מהטענות הבאות נכונה בנוגע ליחס בין בדיקות גרסה (Release tests) לבין בדיקות מערכת (system tests)?
+לשתי הבדיקות מטרה שונה, והן מתבצעות על ידי גורמים שונים.
+לשתי הבדיקות מטרה שונה, אך הן מתבצעות על ידי אותו הגורם.
+לשתי הבדיקות מטרה זהה, והן מתבצעות על ידי אותו הגורם.
+לשתי הבדיקות מטרה זהה, והן מתבצעות על ידי גורמים שונים.
+מודול 6 שקף 26, שם ניתן לראות שהמטרות אולי דומות אך לא זהות, וכן שהבדיקות מתבצעות על ידי גורמים שונים (צוות נפרד, צוות מפתח).
+;
+שאלה: XP קורא ליצירה של חבילת בדיקות יחידה אוטומטיות (Test Suite). בפרויקט נתון יש 3 מחלקות בדיקה, כאשר בכל מחלקה מוגדרות 20 מתודות של JUnit (עם האנוטציה @Test). ישנם שלושה סוגי בדיקות: מהירות, איטיות, בינוניות. ברצוננו להשתמש במנגנון הקטגוריות של JUnit על מנת שנוכל להריץ כל סוג בדיקות בנפרד. מה המספר המינימלי של אנוטציות של JUnit אשר עלינו להגדיר לשם כך? (ניתן להניח את ההנחות הדרושות כך שהמספר יהיה מינימלי).
+12
+3
+20
+4
+הנחה: כל מחלקה מכילה מתודות מסוג אחד בלבד. לכן, דרושה אנוטציה אחת לכל מחלקה כדי לסמן את סוג הבדיקה, ועוד 3 אנוטציות לכל מחלקה אשר תכיל את בדיקות אותה הקטגוריה. סך הכל: 12
+;
+במערכות COTS התאמת המוצר נעשית על ידי הארגון המפתח, בעוד במערכות Product Lines התאמת המוצר נעשית על ידי הלקוח.
+לא נכון
+נכון
+$
+$
+הפוך.
+;
+מבין התפקידים השונים של תיעוד מערכת, מהו התפקיד המזוהה ביותר עם הגישה האג'ילית?
+אמצעי תקשורת בין חברי הצוות
+הדרכה למשתמשי המערכת
+תמיכה בשלב תחזוקת המערכת
+סיפוק מידע להנהלה עבור תכנון הפרויקט
+מתן מענה לדרישה רגולטורית
+;
+מבין התפקידים השונים של תיעוד מערכת, מהו התפקיד המזוהה ביותר עם הגישה האג'ילית?
+הדרכה למשתמשי המערכת
+תמיכה בשלב תחזוקת המערכת
+סיפוק מידע להנהלה עבור תכנון הפרויקט
+מתן מענה לדרישה רגולטורית
+;
+ב-XP מדגישים את החשיבות של כתיבת בדיקות לטווח הארוך כתרומה לאיכות הפרויקט, למרות שבטווח הקצר לא מרגישים את התועלת בכתיבת הבדיקות.
+לא נכון
+נכון
+$
+$
+ב-XP מדגישים שגם בטווח הקצר כתיבת בדיקות מהנה ומהירה יותר, אחרת זה לא היה עובד.
+;
