@@ -156,17 +156,6 @@
     "question" : "What is 'Postmortem Analysis' in software?"
   }, {
     "choices" : {
-      "A" : "3, 10, 22",
-      "B" : "10, 11, 21",
-      "C" : "3, 20, 21",
-      "D" : "10, 21, 22"
-    },
-    "correct" : "3, 10, 22",
-    "explanation" : "If you are wrong, It's highly recommended to draw a table..",
-    "image" : "",
-    "question" : "A program validates a numeric field as follows: values less than 10 are rejected, values between 10 and 21 are accepted, values greater than or equal to 22 are rejected Which of the following input values cover all of the equivalence partitions?"
-  }, {
-    "choices" : {
       "A" : "Decision Table is the method used to build a complete set of test cases without using the internal structure of the program in question.",
       "B" : "Decision Table is the method used to build a complete set of test cases based on usage of the internal structure of the program.",
       "C" : "Decision Table is the framework used to build a complete set of test cases based on usage of the internal structure of the program.",
@@ -1672,5 +1661,192 @@
     "explanation" : "",
     "image" : "",
     "question" : "תהליך Scrum מגדיר פעילויות, תפקידים, ו-artifacts (ישויות, חפצים) לאן 'Burndown chart' שייך?"
+  }, {
+    "choices" : {
+      "A" : "לא נכון",
+      "B" : "נכון",
+      "C" : "",
+      "D" : ""
+    },
+    "correct" : "לא נכון",
+    "explanation" : "",
+    "image" : "",
+    "question" : "בסיפורי המשתמש יש את הפרטים המספיקים למימוש הסיפור במערכת"
+  }, {
+    "choices" : {
+      "A" : "נכון",
+      "B" : "לא נכון",
+      "C" : "",
+      "D" : ""
+    },
+    "correct" : "נכון",
+    "explanation" : "",
+    "image" : "",
+    "question" : "ניתן להגדיר סיפור משתמש גם עבור דרישות לא פונקציונאליות"
+  }, {
+    "choices" : {
+      "A" : "לא נכון",
+      "B" : "נכון",
+      "C" : "",
+      "D" : ""
+    },
+    "correct" : "לא נכון",
+    "explanation" : "",
+    "image" : "",
+    "question" : "מסמך דרישות אשר מתקיימת בו תכונת העקביות אפשר להסיק שמתקיימת בו גם תכונת השלמות"
+  }, {
+    "choices" : {
+      "A" : "לא נכון",
+      "B" : "נכון",
+      "C" : "",
+      "D" : ""
+    },
+    "correct" : "לא נכון",
+    "explanation" : "",
+    "image" : "",
+    "question" : "לרוב, דרישות לא פונקציונאליות ממוקדות במודול אחד של המערכת"
+  }, {
+    "choices" : {
+      "A" : "יצירת מסמך SRS",
+      "B" : "זיהוי בעלי עניין",
+      "C" : "ראיונות",
+      "D" : "תצפיות"
+    },
+    "correct" : "יצירת מסמך SRS",
+    "explanation" : "",
+    "image" : "",
+    "question" : "אלו מהשיטות הבאות איננה קשורה לשלב זיהויגילוי הדרישות?"
+  }, {
+    "choices" : {
+      "A" : "יצירת Test-Cases",
+      "B" : "תצפיות",
+      "C" : "יצירת מקרי שימוש (use cases)",
+      "D" : "ראיונות"
+    },
+    "correct" : "יצירת Test-Cases",
+    "explanation" : "",
+    "image" : "",
+    "question" : "אלו מהשיטות הבאות איננה קשורה לשלב זיהויגילוי הדרישות?"
+  }, {
+    "choices" : {
+      "A" : "Business & Development",
+      "B" : "Development",
+      "C" : "Business",
+      "D" : ""
+    },
+    "correct" : "Business & Development",
+    "explanation" : "הפחתת סיפורים במידה וקצב הפיתוח נמוך מהמצופה",
+    "image" : "",
+    "question" : "מי מבצע את הפעילות 'התאוששות' (Recovery) מתוך משחק התכנון (Planning Game) של XP?"
+  }, {
+    "choices" : {
+      "A" : "Business & Development",
+      "B" : "Development",
+      "C" : "Business",
+      "D" : ""
+    },
+    "correct" : "Business & Development",
+    "explanation" : "הכנסת סיפור חדש לגרסה במידת הצורך",
+    "image" : "",
+    "question" : "מי מבצע את הפעילות 'הכנסת סיפור חדש (במהלך הפיתוח)' (New story) מתוך משחק התכנון (Planning Game) של XP?"
+  }, {
+    "choices" : {
+      "A" : "Development",
+      "B" : "Business & Development",
+      "C" : "Business",
+      "D" : ""
+    },
+    "correct" : "Development",
+    "explanation" : "מיון הסיפורים לפי הסיכון בפיתוח (בהערכת הזמנים)",
+    "image" : "",
+    "question" : "מי מבצע את הפעילות 'מיון לפי סיכון' (Sort by risk) מתוך משחק התכנון (Planning Game) של XP?"
+  }, {
+    "choices" : {
+      "A" : "Development",
+      "B" : "Business & Development",
+      "C" : "Business",
+      "D" : ""
+    },
+    "correct" : "Development",
+    "explanation" : "קביעת קצב הפיתוח",
+    "image" : "",
+    "question" : "מי מבצע את הפעילות 'קביעת מהירות הפיתוח' (Set velocity) מתוך משחק התכנון (Planning Game) של XP?"
+  }, {
+    "choices" : {
+      "A" : "Business",
+      "B" : "Development",
+      "C" : "Business & Development",
+      "D" : ""
+    },
+    "correct" : "Business",
+    "explanation" : "מיון הסיפורים לפי חשיבות עסקית",
+    "image" : "",
+    "question" : "מי מבצע את הפעילות 'מיון לפי ערך' (Sort by value) מתוך משחק התכנון (Planning Game) של XP?"
+  }, {
+    "choices" : {
+      "A" : "Business",
+      "B" : "Development",
+      "C" : "Business & Development",
+      "D" : ""
+    },
+    "correct" : "Business",
+    "explanation" : "כתיבת סיפור משתמש חדש",
+    "image" : "",
+    "question" : "מי מבצע את הפעילות 'כתיבת סיפור משתמש' (Write a story) מתוך משחק התכנון (Planning Game) של XP?"
+  }, {
+    "choices" : {
+      "A" : "Business",
+      "B" : "Development",
+      "C" : "Business & Development",
+      "D" : ""
+    },
+    "correct" : "Business",
+    "explanation" : "בחירת סך הסיפורים לגרסה",
+    "image" : "",
+    "question" : "מי מבצע את הפעילות 'קביעת הScope של הגרסה' (Choose a scope) מתוך משחק התכנון (Planning Game) של XP?"
+  }, {
+    "choices" : {
+      "A" : "Development",
+      "B" : "Business",
+      "C" : "Business & Development",
+      "D" : ""
+    },
+    "correct" : "Development",
+    "explanation" : "הערכת זמן הפיתוח של סיפור",
+    "image" : "",
+    "question" : "מי מבצע את הפעילות 'הערכת סיפור משתמש' (Estimate a story) מתוך משחק התכנון (Planning Game) של XP?"
+  }, {
+    "choices" : {
+      "A" : "Development",
+      "B" : "Business",
+      "C" : "Business & Development",
+      "D" : ""
+    },
+    "correct" : "Development",
+    "explanation" : "ביצוע של איטרצית פיתוח",
+    "image" : "",
+    "question" : "מי מבצע את הפעילות 'הגדרת איטרציה' (Iteration) מתוך משחק התכנון (Planning Game) של XP?"
+  }, {
+    "choices" : {
+      "A" : "Development",
+      "B" : "Business",
+      "C" : "Business & Development",
+      "D" : ""
+    },
+    "correct" : "Development",
+    "explanation" : "הערכה מחדש של הסיפורים במהלך הגרסה",
+    "image" : "",
+    "question" : "מי מבצע את הפעילות 'הערכה מחדש' (Re-estimate) מתוך משחק התכנון (Planning Game) של XP?"
+  }, {
+    "choices" : {
+      "A" : "Business & Development",
+      "B" : "Development",
+      "C" : "Business",
+      "D" : ""
+    },
+    "correct" : "Business & Development",
+    "explanation" : "פיצול סיפור לשניים או יותר עקב מורכבות או קושי בהערכה. גם Business התקבל.",
+    "image" : "",
+    "question" : "מי מבצע את הפעילות 'פיצול סיפור' (Split a story) מתוך משחק התכנון (Planning Game) של XP?"
   }  ]
 }

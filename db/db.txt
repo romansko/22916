@@ -97,13 +97,6 @@ D. A + C are correct.
 A project post-mortem, also called a project retrospective, is a process for evaluating the success (or failure) of a project's ability to meet business goals. It's performed at end of each development stage and after project finish.
 data:image/jpeg;base64,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
 ;
-A program validates a numeric field as follows: values less than 10 are rejected, values between 10 and 21 are accepted, values greater than or equal to 22 are rejected. Which of the following input values cover all of the equivalence partitions?
-3, 10, 22
-10, 11, 21
-3, 20, 21
-10, 21, 22
-If you are wrong, It's highly recommended to draw a table..
-;
 What is Decision Table?
 Decision Table is the method used to build a complete set of test cases without using the internal structure of the program in question.
 Decision Table is the method used to build a complete set of test cases based on usage of the internal structure of the program.
@@ -984,4 +977,117 @@ Artifacts
 תפקידים
 פעילויות
 $
+;
+בסיפורי המשתמש יש את הפרטים המספיקים למימוש הסיפור במערכת.
+לא נכון
+נכון
+$
+$
+;
+ניתן להגדיר סיפור משתמש גם עבור דרישות לא פונקציונאליות.
+נכון
+לא נכון
+$
+$
+;
+מסמך דרישות אשר מתקיימת בו תכונת העקביות אפשר להסיק שמתקיימת בו גם תכונת השלמות.
+לא נכון
+נכון
+$
+$
+;
+לרוב, דרישות לא פונקציונאליות ממוקדות במודול אחד של המערכת. 
+לא נכון
+נכון
+$
+$
+;
+אלו מהשיטות הבאות איננה קשורה לשלב זיהוי/גילוי הדרישות? 
+יצירת מסמך SRS
+זיהוי בעלי עניין
+ראיונות
+תצפיות
+;
+אלו מהשיטות הבאות איננה קשורה לשלב זיהוי/גילוי הדרישות? 
+יצירת Test-Cases
+תצפיות
+יצירת מקרי שימוש (use cases)
+ראיונות
+;
+מי מבצע את הפעילות "התאוששות" (Recovery) מתוך משחק התכנון (Planning Game) של XP?
+Business & Development
+Development
+Business
+$
+הפחתת סיפורים במידה וקצב הפיתוח נמוך מהמצופה
+;
+מי מבצע את הפעילות "הכנסת סיפור חדש (במהלך הפיתוח)" (New story) מתוך משחק התכנון (Planning Game) של XP?
+Business & Development
+Development
+Business
+$
+הכנסת סיפור חדש לגרסה במידת הצורך
+;
+מי מבצע את הפעילות "מיון לפי סיכון" (Sort by risk) מתוך משחק התכנון (Planning Game) של XP?
+Development
+Business & Development
+Business
+$
+מיון הסיפורים לפי הסיכון בפיתוח (בהערכת הזמנים)
+;
+מי מבצע את הפעילות "קביעת מהירות הפיתוח" (Set velocity) מתוך משחק התכנון (Planning Game) של XP?
+Development
+Business & Development
+Business
+$
+קביעת קצב הפיתוח
+;
+מי מבצע את הפעילות "מיון לפי ערך" (Sort by value) מתוך משחק התכנון (Planning Game) של XP?
+Business
+Development
+Business & Development
+$
+מיון הסיפורים לפי חשיבות עסקית
+;
+מי מבצע את הפעילות "כתיבת סיפור משתמש" (Write a story) מתוך משחק התכנון (Planning Game) של XP?
+Business
+Development
+Business & Development
+$
+כתיבת סיפור משתמש חדש
+;
+מי מבצע את הפעילות "קביעת הScope של הגרסה" (Choose a scope) מתוך משחק התכנון (Planning Game) של XP?
+Business
+Development
+Business & Development
+$
+בחירת סך הסיפורים לגרסה
+;
+מי מבצע את הפעילות "הערכת סיפור משתמש" (Estimate a story) מתוך משחק התכנון (Planning Game) של XP?
+Development
+Business
+Business & Development
+$
+הערכת זמן הפיתוח של סיפור
+;
+מי מבצע את הפעילות "הגדרת איטרציה" (Iteration) מתוך משחק התכנון (Planning Game) של XP?
+Development
+Business
+Business & Development
+$
+ביצוע של איטרצית פיתוח
+;
+מי מבצע את הפעילות "הערכה מחדש" (Re-estimate) מתוך משחק התכנון (Planning Game) של XP?
+Development
+Business
+Business & Development
+$
+הערכה מחדש של הסיפורים במהלך הגרסה
+;
+מי מבצע את הפעילות "פיצול סיפור" (Split a story) מתוך משחק התכנון (Planning Game) של XP?
+Business & Development
+Development
+Business
+$
+פיצול סיפור לשניים או יותר עקב מורכבות או קושי בהערכה. גם Business התקבל.
 ;
