@@ -663,12 +663,12 @@
   }, {
     "choices" : {
       "A" : "אמצעי תקשורת בין חברי הצוות",
-      "B" : "הדרכה למשתמשי המערכת",
-      "C" : "תמיכה בשלב תחזוקת המערכת",
-      "D" : "סיפוק מידע להנהלה עבור תכנון הפרויקט"
+      "B" : "תמיכה בשלב תחזוקת המערכת",
+      "C" : "סיפוק מידע להנהלה עבור תכנון הפרויקט",
+      "D" : "מתן מענה לדרישה רגולטורית"
     },
     "correct" : "אמצעי תקשורת בין חברי הצוות",
-    "explanation" : "מתן מענה לדרישה רגולטורית",
+    "explanation" : "",
     "image" : "",
     "question" : "מבין התפקידים השונים של תיעוד מערכת, מהו התפקיד המזוהה ביותר עם הגישה האג'ילית?"
   }, {
@@ -1848,5 +1848,82 @@
     "explanation" : "פיצול סיפור לשניים או יותר עקב מורכבות או קושי בהערכה. גם Business התקבל.",
     "image" : "",
     "question" : "מי מבצע את הפעילות 'פיצול סיפור' (Split a story) מתוך משחק התכנון (Planning Game) של XP?"
+  }, {
+    "choices" : {
+      "A" : "Model-View-Controller",
+      "B" : "Architectural Pattern",
+      "C" : "Architectural Views",
+      "D" : "Application Architecture"
+    },
+    "correct" : "Model-View-Controller",
+    "explanation" : "תשובה מתוך מיקודון למבחן של ליאל ביטון.",
+    "image" : "",
+    "question" : "להלן בעיה שיכולה לעלות במהלך הגדרת ארכיטקטורת המערכת יש להתאים את השיטה או המונח אשר בא ללת מענה לבעיה: קשה להבין קוד של מערכת כאשר ממשק המשתמש מכיל גם את הלוגיקה"
+  }, {
+    "choices" : {
+      "A" : "Micro-Services",
+      "B" : "Architectural Pattern",
+      "C" : "Block Diagram",
+      "D" : "Model-View-Controller"
+    },
+    "correct" : "Micro-Services",
+    "explanation" : "תשובה מתוך מיקודון למבחן של ליאל ביטון.",
+    "image" : "",
+    "question" : "להלן בעיה שיכולה לעלות במהלך הגדרת ארכיטקטורת המערכת יש להתאים את השיטה או המונח אשר בא ללת מענה לבעיה: מערכת גדולה עם בסיס קוד אחד נעשית עם השנים קשה מאוד לתחזוקה והרחבה"
+  }, {
+    "choices" : {
+      "A" : "Block Diagram",
+      "B" : "Use-Case Diagram",
+      "C" : "Micro-Services",
+      "D" : "Model-View-Controller"
+    },
+    "correct" : "Block Diagram",
+    "explanation" : "תשובה מתוך מיקודון למבחן של ליאל ביטון.",
+    "image" : "",
+    "question" : "להלן בעיה שיכולה לעלות במהלך הגדרת ארכיטקטורת המערכת יש להתאים את השיטה או המונח אשר בא ללת מענה לבעיה: לרוב, שפת UML מורכבת מדי לשימוש עבור ארכיטקטורת המערכת"
+  }, {
+    "choices" : {
+      "A" : "Architectural Pattern",
+      "B" : "Architectural Views",
+      "C" : "Planning Game",
+      "D" : "Application Architecture"
+    },
+    "correct" : "Architectural Pattern",
+    "explanation" : "תשובה מתוך מיקודון למבחן של ליאל ביטון.",
+    "image" : "",
+    "question" : "להלן בעיה שיכולה לעלות במהלך הגדרת ארכיטקטורת המערכת יש להתאים את השיטה או המונח אשר בא ללת מענה לבעיה: קשה להעריך איכות של ארכיטקטורת מערכת לפני שהמערכת פותחה"
+  }, {
+    "choices" : {
+      "A" : "Application Architecture",
+      "B" : "Architectural Pattern",
+      "C" : "Use-Case Diagram",
+      "D" : "Architectural Views"
+    },
+    "correct" : "Application Architecture",
+    "explanation" : "תשובה מתוך מיקודון למבחן של ליאל ביטון.",
+    "image" : "",
+    "question" : "להלן בעיה שיכולה לעלות במהלך הגדרת ארכיטקטורת המערכת יש להתאים את השיטה או המונח אשר בא ללת מענה לבעיה: תבנית ארכיטקטורה הנה שיטה יעילה אך לעיתים כללית מדי"
+  }, {
+    "choices" : {
+      "A" : "Exploration Phase",
+      "B" : "Planning Game",
+      "C" : "Architectural Views",
+      "D" : "Architectural Pattern"
+    },
+    "correct" : "Exploration Phase",
+    "explanation" : "תשובה מתוך מיקודון למבחן של ליאל ביטון.",
+    "image" : "",
+    "question" : "להלן בעיה שיכולה לעלות במהלך הגדרת ארכיטקטורת המערכת יש להתאים את השיטה או המונח אשר בא ללת מענה לבעיה: בתהליך אינקרמנטלי כמו XP קשה להגדיר את הארכיטקטורה בצורה נכונה באיטרציות הפיתוח הראשונות"
+  }, {
+    "choices" : {
+      "A" : "Architectural Views",
+      "B" : "Architectural Pattern",
+      "C" : "Application Architecture",
+      "D" : "Block Diagram"
+    },
+    "correct" : "Architectural Views",
+    "explanation" : "תשובה מתוך מיקודון למבחן של ליאל ביטון.",
+    "image" : "",
+    "question" : "להלן בעיה שיכולה לעלות במהלך הגדרת ארכיטקטורת המערכת יש להתאים את השיטה או המונח אשר בא ללת מענה לבעיה: כאשר המערכת מורכבת, קשה להגדיר ייצוג אחד בלבד של מבנה המערכת"
   }  ]
 }
