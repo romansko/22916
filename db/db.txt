@@ -1070,11 +1070,11 @@ $
 הערכת זמן הפיתוח של סיפור
 ;
 מי מבצע את הפעילות "הגדרת איטרציה" (Iteration) מתוך משחק התכנון (Planning Game) של XP?
-Development
 Business
+Development
 Business & Development
 $
-ביצוע של איטרצית פיתוח
+בממן 11, 2024 המרצה כתב כי התשובה היא Business. זאת בניגוד לפתרון שנמצא בExam-2019A-MoedA-answers.
 ;
 מי מבצע את הפעילות "הערכה מחדש" (Re-estimate) מתוך משחק התכנון (Planning Game) של XP?
 Development
