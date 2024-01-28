@@ -8,7 +8,7 @@
       "D" : "Testing of some method. It's performed by qualified tester."
     },
     "correct" : "Testing of individual software components or modules. Typically, is done by the programmer.",
-    "explanation" : "Unit Testing is Testing of individual software components or modules. Typically, is done by the programmer.",
+    "explanation" : "The Question's not from 22916 course. Unit Testing is Testing of individual software components or modules. Typically, is done by the programmer.",
     "image" : "",
     "question" : "What is Unit Testing?"
   }, {
@@ -19,7 +19,7 @@
       "D" : "This is a type of black-box testing. It considers the internal parts of a program and focus on the output as per requirement."
     },
     "correct" : "This type of testing ignores the internal parts and focus on the output is as per requirement or not.",
-    "explanation" : "This type of testing ignores the internal parts and focus on the output is as per requirement or not. Functional Tests are BlackBox Tests.",
+    "explanation" : "The Question's not from 22916 course. This type of testing ignores the internal parts and focus on the output is as per requirement or not. Functional Tests are BlackBox Tests.",
     "image" : "",
     "question" : "What is Functional Testing?"
   }, {
@@ -30,7 +30,7 @@
       "D" : "None of these."
     },
     "correct" : "This testing type actually determines if a new software version is performing well enough to accept it for a major testing effort.",
-    "explanation" : "This testing type actually determines if a new software version is performing well enough to accept it for a major testing effort.",
+    "explanation" : "The Question's not from 22916 course. This testing type actually determines if a new software version is performing well enough to accept it for a major testing effort.",
     "image" : "",
     "question" : "What is SANITY Testing?"
   }, {
@@ -41,7 +41,7 @@
       "D" : "No difference between these types of testing. Both them are performance testing."
     },
     "correct" : "Load test is focused on checking system behavior under heavy load to define a point of system's response time degradation/fails. Stress testing is focused on checking capability of hardware.",
-    "explanation" : "Load test is focused on checking system behavior under heavy load to define a point of system's response time degradation/fails. Stress testing is focused on checking capability of hardware.",
+    "explanation" : "The Question's not from 22916 course. Load test is focused on checking system behavior under heavy load to define a point of system's response time degradation/fails. Stress testing is focused on checking capability of hardware.",
     "image" : "",
     "question" : "Difference between load and stress testing is:"
   }, {
@@ -52,7 +52,7 @@
       "D" : "D. B + C are correct."
     },
     "correct" : "A. Verification - the process of checking whether the products of a given phase of the software development process fulfill the requirements established on previous phase. Validation answer on the question 'Are we building the right product?' and involves comparison against requirements.",
-    "explanation" : "Validation - 'Are we building the right product?'. Verification - 'Are we building the product right?'.",
+    "explanation" : "The Question's not from 22916 course. Validation - 'Are we building the right product?'. Verification - 'Are we building the product right?'.",
     "image" : "",
     "question" : "Validation and Verification:"
   }, {
@@ -63,7 +63,7 @@
       "D" : "API testing checks how some software components should interact each other."
     },
     "correct" : "Testing of a set of functions and procedures that allow an access to the features or data of an application/system.",
-    "explanation" : "API Tesing is Testing of a set of functions and procedures that allow an access to the features or data of an application/system.",
+    "explanation" : "The Question's not from 22916 course. API Tesing is Testing of a set of functions and procedures that allow an access to the features or data of an application/system.",
     "image" : "",
     "question" : "API testing:"
   }, {
@@ -74,7 +74,7 @@
       "D" : "Rewriting a piece of code to do it user friendly."
     },
     "correct" : "Changing a piece of code without changing its functionality.",
-    "explanation" : "The definition is changing a piece of code without changing its functionality.",
+    "explanation" : "The Question's not from 22916 course. The definition is changing a piece of code without changing its functionality.",
     "image" : "",
     "question" : "Refactoring is:"
   }, {
@@ -85,7 +85,7 @@
       "D" : "None of these."
     },
     "correct" : "An external dependency is a situation when an object in system interacts with code under test and you have no control on this.",
-    "explanation" : "An external dependency is a situation when an object in system interacts with code under test and you have no control on this.",
+    "explanation" : "The Question's not from 22916 course. An external dependency is a situation when an object in system interacts with code under test and you have no control on this.",
     "image" : "",
     "question" : "What does external dependency mean?"
   }, {
@@ -96,7 +96,7 @@
       "D" : "all are correct."
     },
     "correct" : "A mock object is a fake object in the system that concludes whether the unit test has passed or failed. A stub is a controllable replacement for an existing dependency in the system. Usually there is one mock and one or several stubs per test.",
-    "explanation" : "A mock object is a fake object in the system that concludes whether the unit test has passed or failed. A stub is a controllable replacement for an existing dependency in the system. Usually there is one mock and one or several stubs per test. Stub never fails tests.",
+    "explanation" : "The Question's not from 22916 course. A mock object is a fake object in the system that concludes whether the unit test has passed or failed. A stub is a controllable replacement for an existing dependency in the system. Usually there is one mock and one or several stubs per test. Stub never fails tests.",
     "image" : "",
     "question" : "What is a stub and a mock object and what is the difference between them?"
   }, {
@@ -107,7 +107,7 @@
       "D" : "A default constructor doesn't have parameters."
     },
     "correct" : "Code under test may require a lot of stubs to work correctly without dependencies.",
-    "explanation" : "Code under test may require a lot of stubs to work correctly without dependencies.",
+    "explanation" : "The Question's not from 22916 course. Code under test may require a lot of stubs to work correctly without dependencies.",
     "image" : "",
     "question" : "What may create problems by using constructor-based dependency injection technique?"
   }, {
@@ -118,42 +118,9 @@
       "D" : "Debugging is scattering a lot of print statements untill we find the error."
     },
     "correct" : "Debugging is a process that includes the following: 1. establishing exact reason and location of the error in the program and 2. fixing this error.",
-    "explanation" : "Debugging is a 2 phase process that includes the following: 1. establishing exact reason and location of the error in the program and 2. fixing this error.",
+    "explanation" : "The Question's not from 22916 course. Debugging is a 2 phase process that includes the following: 1. establishing exact reason and location of the error in the program and 2. fixing this error.",
     "image" : "",
     "question" : "What is debugging?"
-  }, {
-    "choices" : {
-      "A" : "1. Identifying the possible causes or hypotheses. 2. Eliminating possible causes using the data. 3. Refining the hypothesis. 4. Proving the hypothesis.",
-      "B" : "1. Collecting relevant data. 2. Eliminating possible causes using the data. 3. Proving the hypothesis.",
-      "C" : "1. Collecting relevant data. 2. Analysis collected data. 3. Defining hypothesis. 4. Eliminating possible causes using the data. 5. Proving the hypothesis.",
-      "D" : "1. Locating the relevant data. 2. Devising a hypothesis. 3. Proving the hypothesis."
-    },
-    "correct" : "1. Identifying the possible causes or hypotheses. 2. Eliminating possible causes using the data. 3. Refining the hypothesis. 4. Proving the hypothesis.",
-    "explanation" : "Deduction consists of 1. Identifying the possible causes or hypotheses. 2. Eliminating possible causes using the data. 3. Refining the hypothesis. 4. Proving the hypothesis.",
-    "image" : "",
-    "question" : "What is deduction debugging strategy?"
-  }, {
-    "choices" : {
-      "A" : "1. Locating the relevant data. 2. Organizing the data. 3. Devising a hypothesis. 4. Prove the hypothesis.",
-      "B" : "1. Collecting relevant data. 2. Eliminating possible causes using the data. 3. Proving the hypothesis.",
-      "C" : "1. Collecting the relevant data. 2. Devising a hypothesis. 3. Eliminating non-necessary data. 4. Prove the hypothesis.",
-      "D" : "1. Locating the relevant data. 2. Devising a hypothesis. 3. Proving the hypothesis."
-    },
-    "correct" : "1. Locating the relevant data. 2. Organizing the data. 3. Devising a hypothesis. 4. Prove the hypothesis.",
-    "explanation" : "Induction consists of 1. Locating the relevant data. 2. Organizing the data. 3. Devising a hypothesis. 4. Prove the hypothesis.",
-    "image" : "",
-    "question" : "What is induction debugging strategy?"
-  }, {
-    "choices" : {
-      "A" : "A. A project post-mortem, also called a project retrospective, is a process for evaluating the success (or failure) of a project's ability to meet business goals. It's performed at end of each development stage.",
-      "B" : "B. A project post-mortem is a process of checking conforming final project to user's requirements.",
-      "C" : "C. A project post-mortem is a process for evaluating the success (or failure) of a project's ability to meet business goals. It's performed after project finish.",
-      "D" : "D. A + C are correct."
-    },
-    "correct" : "A. A project post-mortem, also called a project retrospective, is a process for evaluating the success (or failure) of a project's ability to meet business goals. It's performed at end of each development stage.",
-    "explanation" : "A project post-mortem, also called a project retrospective, is a process for evaluating the success (or failure) of a project's ability to meet business goals. It's performed at end of each development stage and after project finish.",
-    "image" : "data:image/jpeg;base64,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",
-    "question" : "What is 'Postmortem Analysis' in software?"
   }, {
     "choices" : {
       "A" : "Decision Table is the method used to build a complete set of test cases without using the internal structure of the program in question.",
@@ -162,20 +129,9 @@
       "D" : "Decision Table is one of the methods of white-box testing."
     },
     "correct" : "Decision Table is the method used to build a complete set of test cases without using the internal structure of the program in question.",
-    "explanation" : "Decision Table is the method used to build a complete set of test cases without using the internal structure of the program in question.",
+    "explanation" : "The Question's not from 22916 course. Decision Table is the method used to build a complete set of test cases without using the internal structure of the program in question.",
     "image" : "",
     "question" : "What is Decision Table?"
-  }, {
-    "choices" : {
-      "A" : "Difference is in meeting execution and a participated staff.",
-      "B" : "There is a difference in examined documents type.",
-      "C" : "The difference is expressed in performing testing.",
-      "D" : "The difference is in types of checklists and examined documents."
-    },
-    "correct" : "Difference is in meeting execution and a participated staff.",
-    "explanation" : "Difference is in meeting execution and a participated staff.",
-    "image" : "",
-    "question" : "What is difference between software inspection method and walkthrough one?"
   }, {
     "choices" : {
       "A" : "You run the code with predetermined input and check that the code produces predetermined outputs.",
@@ -184,48 +140,15 @@
       "D" : "None of these."
     },
     "correct" : "You run the code with predetermined input and check that the code produces predetermined outputs.",
-    "explanation" : "You run the code with predetermined input and check that the code produces predetermined outputs.",
+    "explanation" : "The Question's not from 22916 course. You run the code with predetermined input and check that the code produces predetermined outputs.",
     "image" : "",
     "question" : "With white-box testing:"
-  }, {
-    "choices" : {
-      "A" : "It is the number of independent paths.",
-      "B" : "It's number of paths in a code.",
-      "C" : "It's a number of conditionals/predicates in a code.",
-      "D" : "It's a number of code lines plus 1."
-    },
-    "correct" : "It is the number of independent paths.",
-    "explanation" : "Cyclomatic number is the number of independent paths or number of conditionals/predicates in a code +1!",
-    "image" : "",
-    "question" : "What is cyclomatic number?"
-  }, {
-    "choices" : {
-      "A" : "Requirements, Objectives, External Specifications, System Design, Program Structure Design, Module Interface Specifications, Code.",
-      "B" : "Requirements, External Specifications, Objectives, Program Structure Design,System Design, Module Interface Specifications, Code.",
-      "C" : "Code, Requirements, Objectives, External Specifications, System Design, Program Structure Design, Module Interface Specifications.",
-      "D" : "Requirements, External Specifications, Objectives, System Design, Program Structure Design, Module Interface Specifications, Code."
-    },
-    "correct" : "Requirements, Objectives, External Specifications, System Design, Program Structure Design, Module Interface Specifications, Code.",
-    "explanation" : "The right order is Requirements, Objectives, External Specifications, System Design, Program Structure Design, Module Interface Specifications, Code.",
-    "image" : "",
-    "question" : "What are the seven stages of development process?"
-  }, {
-    "choices" : {
-      "A" : "The drum development model.",
-      "B" : "The V development model.",
-      "C" : "The Spiral development model.",
-      "D" : "Every model is valid."
-    },
-    "correct" : "The drum development model.",
-    "explanation" : "There's no such thing a drum development model!",
-    "image" : "",
-    "question" : "Which of the below is NOT a valid development model?"
   }, {
     "choices" : {
       "A" : "Users, stakeholders, development team.",
       "B" : "Users, stakeholders, scrum master, management.",
       "C" : "Users, management, scrum master, development team.",
-      "D" : "Users, investors, management, quality assurance team."
+      "D" : "The Question's not from 22916 course. Users, investors, management, quality assurance team."
     },
     "correct" : "Users, stakeholders, development team.",
     "explanation" : "",
@@ -239,7 +162,7 @@
       "D" : "Ag - delivered in the middle and in the end of the development period. Wat - delivered in the end of the development period."
     },
     "correct" : "Ag - delivered in increasing level of whole development period. Wat - delivered in the end of the development period.",
-    "explanation" : "",
+    "explanation" : "The Question's not from 22916 course.",
     "image" : "",
     "question" : "Difference between Agile (Ag) and Waterfall (Wat) models in the product deliverability aspect:"
   }, {
@@ -250,7 +173,7 @@
       "D" : "Ag - the high level in the beginning and almost zero in the final stage, Wat - in the reducing level from start to finish."
     },
     "correct" : "Ag - the higher level in the beginning and reduced in the final stage, Wat - in the increasing level from start to finish.",
-    "explanation" : "",
+    "explanation" : "The Question's not from 22916 course.",
     "image" : "",
     "question" : "Difference between Agile (Ag) and Waterfall (Wat) models in the Grade of Failure Change (GFC) aspect:"
   }, {
@@ -261,7 +184,7 @@
       "D" : "Ag - the same for all period, Wat - higher in the final development period."
     },
     "correct" : "Ag - the same for all period, Wat - higher in the final development period.",
-    "explanation" : "",
+    "explanation" : "The Question's not from 22916 course.",
     "image" : "",
     "question" : "Difference between Agile (Ag) and Waterfall (Wat) models in the Project Run Rate aspect:"
   }, {
@@ -272,7 +195,7 @@
       "D" : "Error - An incorrect syntax of a code."
     },
     "correct" : "Error - An incorrect internal state of the system.",
-    "explanation" : "",
+    "explanation" : "The Question's not from 22916 course.",
     "image" : "",
     "question" : "What is not ERROR definition:"
   }, {
@@ -283,97 +206,9 @@
       "D" : "Fault is internal incorrect behavior with respect to the requirements. Failure presents external result of the error."
     },
     "correct" : "Fault is the incorrect state in the system that results from the error. Failure is the deviation from expected behavior observed by the user.",
-    "explanation" : "",
+    "explanation" : "The Question's not from 22916 course.",
     "image" : "",
     "question" : "Difference between software fault and failure is:"
-  }, {
-    "choices" : {
-      "A" : "MFf helps to isolate the testing code by replacing other parts of the application with fake objects.",
-      "B" : "MFf helps to test the code you are developing by introducing interfaces to the code of tests.",
-      "C" : "MFf helps in refactoring the code you are testing by using interfaces.",
-      "D" : "All are correct."
-    },
-    "correct" : "MFf helps to isolate the testing code by replacing other parts of the application with fake objects.",
-    "explanation" : "",
-    "image" : "",
-    "question" : "Which sentence below are correct regarding to Microsoft Fakes framework (MFf)?"
-  }, {
-    "choices" : {
-      "A" : "Test requirements for a dead code.",
-      "B" : "Requirements that may be satisfied.",
-      "C" : "The situation when no test cases that meet the test requirements of a dead code exist.",
-      "D" : "All are correct."
-    },
-    "correct" : "Test requirements for a dead code.",
-    "explanation" : "",
-    "image" : "",
-    "question" : "Infeasible test requirements are:"
-  }, {
-    "choices" : {
-      "A" : "Indirect Input are updated parameters of procedures or subroutines.",
-      "B" : "The situation when the behavior of the SUT is affected by the values returned by another component whose services it uses.",
-      "C" : "Both answers are correct.",
-      "D" : "None are Correct."
-    },
-    "correct" : "Indirect Input are updated parameters of procedures or subroutines.",
-    "explanation" : "",
-    "image" : "",
-    "question" : "What is Indirect Input?"
-  }, {
-    "choices" : {
-      "A" : "It is the situation when a method should address single task and does it well and also should have clear intent.",
-      "B" : "It is the situation when a method addresses several tasks in the same time.",
-      "C" : "It is the situation when a method should perform one or several tasks efficiently.",
-      "D" : "It is the situation when a method should perform several tasks simultaneously."
-    },
-    "correct" : "It is the situation when a method should address single task and does it well and also should have clear intent.",
-    "explanation" : "",
-    "image" : "",
-    "question" : "What does it mean - 'Methods should have strong cohesion'?"
-  }, {
-    "choices" : {
-      "A" : "It's a test in which we replace the real DOC on a mock one.",
-      "B" : "It's a test which we created from another one.",
-      "C" : "It's a test which we created from another one and performed code refactoring.",
-      "D" : "It's a test in which we replace using of concrete class on using an interface."
-    },
-    "correct" : "It's a test in which we replace the real DOC on a mock one.",
-    "explanation" : "",
-    "image" : "",
-    "question" : "What is 'Test Double'?"
-  }, {
-    "choices" : {
-      "A" : "In Decision Table input conditions are assumed to be independent.",
-      "B" : "Decision Table represents correlation between input conditions and output actions.",
-      "C" : "A rule (column) represents correctness of input conditions.",
-      "D" : "Two rules (columns) can correspond to the same output actions."
-    },
-    "correct" : "In Decision Table input conditions are assumed to be independent.",
-    "explanation" : "",
-    "image" : "",
-    "question" : "Which sentence about Decision Table is incorrect?"
-  }, {
-    "choices" : {
-      "A" : "Multiple bugs influence to the results of executed tests.",
-      "B" : "Not enough tests.",
-      "C" : "Considering oftest cases related to different parts of the program.",
-      "D" : "All proposed hypotheses are rejected in process of their proving."
-    },
-    "correct" : "Multiple bugs influence to the results of executed tests.",
-    "explanation" : "",
-    "image" : "",
-    "question" : "What can be the reason of deadlock in debugging by induction process?"
-  }, {
-    "choices" : {
-      "A" : "5",
-      "B" : "4",
-      "C" : "3",
-      "D" : "6"
-    },
-    "correct" : "5",
-    "explanation" : "Pay attention: valid month and valid year are in the same input partition - the valid partition",
-    "image" : "",
-    "question" : "An application calculates a water consumption during the considered month The input consists of two integer values: a month and a year In the database there exist data from year 2000 What is a number of test cases obtained by using equivalence partition approach?"
   }, {
     "choices" : {
       "A" : "לא נכון",
@@ -492,7 +327,7 @@
       "D" : "Release management"
     },
     "correct" : "Change management",
-    "explanation" : "",
+    "explanation" : "מתוך Exam-2023A-MoedA. (מודול 7 - לא רלוונטי ל2024A).",
     "image" : "",
     "question" : "באיזה חלק של ניהול התצורה תומך מנגנון ה-Issues של גיטהאב באופן ישיר?"
   }, {
@@ -503,7 +338,7 @@
       "D" : "git stash, git push"
     },
     "correct" : "git tag, git branch",
-    "explanation" : "התקבלו תשובות נוספות שיכולות להיות גם רלוונטיות.",
+    "explanation" : "מתוך Exam-2023A-MoedA. התקבלו תשובות נוספות שיכולות להיות גם רלוונטיות. (מודול 7 - לא רלוונטי ל2024A).",
     "image" : "",
     "question" : "לדני יש רעיון לפיצ'ר חדש ונועז למערכת עליה הוא עובד הוא מעוניין במנגנון אשר יאפשר לו 'לזרוק' את הקוד של הפיצ'ר החדש במידה והוא לא יעלה יפה כתבו שתי פקודות שונות של git אשר יכולות לסייע לו"
   }, {
@@ -704,6 +539,105 @@
     "explanation" : "",
     "image" : "",
     "question" : "באיזה חלק של תהליך הפיתוח תומכת הספרייה מוקיטו (mockito)?"
+  }, {
+    "choices" : {
+      "A" : "גנרי",
+      "B" : "מותאם",
+      "C" : "",
+      "D" : ""
+    },
+    "correct" : "גנרי",
+    "explanation" : "",
+    "image" : "",
+    "question" : "האם המוצר גנרי או מותאם: תוכנה המסייעת לסטודנטים למדעי המחשב בתכנון הקורסים הנלמדים בסמסטר"
+  }, {
+    "choices" : {
+      "A" : "גנרי",
+      "B" : "מותאם",
+      "C" : "",
+      "D" : ""
+    },
+    "correct" : "גנרי",
+    "explanation" : "",
+    "image" : "",
+    "question" : "האם המוצר גנרי או מותאם: מערכת ניווט ייעודית לרכבי חירום כגון אמבולנסים ניידות משטרה וכבאיות"
+  }, {
+    "choices" : {
+      "A" : "מותאם",
+      "B" : "גנרי",
+      "C" : "",
+      "D" : ""
+    },
+    "correct" : "מותאם",
+    "explanation" : "",
+    "image" : "",
+    "question" : "האם המוצר גנרי או מותאם: מערכת לניהול קורסים באוניברסיטה הפתוחה"
+  }, {
+    "choices" : {
+      "A" : "מותאם",
+      "B" : "גנרי",
+      "C" : "",
+      "D" : ""
+    },
+    "correct" : "מותאם",
+    "explanation" : "",
+    "image" : "",
+    "question" : "האם המוצר גנרי או מותאם: משחק דיגיטלי בזמן אמת לקונים ברשתות 'רמי לוי'"
+  }, {
+    "choices" : {
+      "A" : "גנרי",
+      "B" : "מותאם",
+      "C" : "",
+      "D" : ""
+    },
+    "correct" : "גנרי",
+    "explanation" : "",
+    "image" : "",
+    "question" : "האם המוצר גנרי או מותאם: ZOOM"
+  }, {
+    "choices" : {
+      "A" : "מותאם",
+      "B" : "גנרי",
+      "C" : "",
+      "D" : ""
+    },
+    "correct" : "מותאם",
+    "explanation" : "",
+    "image" : "",
+    "question" : "האם המוצר גנרי או מותאם: מערכת ניהול מעונות הסטודנטים בטכניון"
+  }, {
+    "choices" : {
+      "A" : "גנרי",
+      "B" : "מותאם",
+      "C" : "",
+      "D" : ""
+    },
+    "correct" : "גנרי",
+    "explanation" : "אין מדובר במערכת אשר מפותחת עבור לקוח מסוים (בעל מכולת) אשר ביקש מערכת תוכנה לניהול המכולת שלו. הניסוח הנו 'מכולות שכונתיות בישראל' כלומר כל בעל מכולת בישראל אשר יהיה מעוניין במוצר. התשובה היא אם כן – מוצר תוכנה גנרי.",
+    "image" : "",
+    "question" : "האם המוצר גנרי או מותאם: מערכת לניהול מכולות שכונתיות בישראל"
+  }, {
+    "choices" : {
+      "A" : "גנרי",
+      "B" : "מותאם",
+      "C" : "",
+      "D" : ""
+    },
+    "correct" : "גנרי",
+    "explanation" : "",
+    "image" : "",
+    "question" : "האם המוצר גנרי או מותאם: סביבת פיתוח לאפליקציות אנדרואיד"
+  }, {
+    "choices" : {
+      "A" : "מותאם",
+      "B" : "גנרי",
+      "C" : "",
+      "D" : ""
+    },
+    "correct" : "מותאם",
+    "explanation" : "'מערכת לתחזוקה וניהול של שמורות טבע וגנים לאומיים בישראל' הינה מוצר תוכנה מותאם כיוון שהלקוח פה הוא 'רשות שמורות הטבע והגנים'.",
+    "image" : "",
+    "question" : "האם המוצר גנרי או מותאם: מערכת לתחזוקה וניהול של שמורות טבע וגנים לאומיים בישראל"
   }, {
     "choices" : {
       "A" : "גנרי",
@@ -946,50 +880,6 @@
     "explanation" : "",
     "image" : "",
     "question" : "בבואו לחפש מערכת תוכנה לניהול התקציב הביתי, ניסה ניסים להבין האם מערכת בשם HomeBudget מתאימה לצרכיו מאחר ולא מצא תיעוד מתאים הסוקר את המערכת, נאלץ ניסים להתקין את המערכת ורק לאחר מכן גילה לדאבונו שהמערכת איננה מתאימה עבורו איזה סוג של דרישת Usability מופר על ידי המערכת HomeBudget?"
-  }, {
-    "choices" : {
-      "A" : "גנרי",
-      "B" : "מותאם",
-      "C" : "",
-      "D" : ""
-    },
-    "correct" : "גנרי",
-    "explanation" : "",
-    "image" : "",
-    "question" : "האם המוצר גנרי או מותאם: תוכנה המסייעת לסטודנטים למדעי המחשב בתכנון הקורסים הנלמדים בסמסטר"
-  }, {
-    "choices" : {
-      "A" : "גנרי",
-      "B" : "מותאם",
-      "C" : "",
-      "D" : ""
-    },
-    "correct" : "גנרי",
-    "explanation" : "",
-    "image" : "",
-    "question" : "האם המוצר גנרי או מותאם: מערכת ניווט ייעודית לרכבי חירום כגון אמבולנסים ניידות משטרה וכבאיות"
-  }, {
-    "choices" : {
-      "A" : "מותאם",
-      "B" : "גנרי",
-      "C" : "",
-      "D" : ""
-    },
-    "correct" : "מותאם",
-    "explanation" : "",
-    "image" : "",
-    "question" : "האם המוצר גנרי או מותאם: מערכת לניהול קורסים באוניברסיטה הפתוחה"
-  }, {
-    "choices" : {
-      "A" : "מותאם",
-      "B" : "גנרי",
-      "C" : "",
-      "D" : ""
-    },
-    "correct" : "מותאם",
-    "explanation" : "",
-    "image" : "",
-    "question" : "האם המוצר גנרי או מותאם: משחק דיגיטלי בזמן אמת לקונים ברשתות 'רמי לוי'"
   }, {
     "choices" : {
       "A" : "נכון",
@@ -1430,61 +1320,6 @@
     "explanation" : "סימון מתודות ולא משתנים",
     "image" : "",
     "question" : "הסימון Test מיועד לסימון משתני בדיקה בקוד"
-  }, {
-    "choices" : {
-      "A" : "גנרי",
-      "B" : "מותאם",
-      "C" : "",
-      "D" : ""
-    },
-    "correct" : "גנרי",
-    "explanation" : "",
-    "image" : "",
-    "question" : "האם המוצר גנרי או מותאם: ZOOM"
-  }, {
-    "choices" : {
-      "A" : "מותאם",
-      "B" : "גנרי",
-      "C" : "",
-      "D" : ""
-    },
-    "correct" : "מותאם",
-    "explanation" : "",
-    "image" : "",
-    "question" : "האם המוצר גנרי או מותאם: מערכת ניהול מעונות הסטודנטים בטכניון"
-  }, {
-    "choices" : {
-      "A" : "גנרי",
-      "B" : "מותאם",
-      "C" : "",
-      "D" : ""
-    },
-    "correct" : "גנרי",
-    "explanation" : "אין מדובר במערכת אשר מפותחת עבור לקוח מסוים (בעל מכולת) אשר ביקש מערכת תוכנה לניהול המכולת שלו. הניסוח הנו 'מכולות שכונתיות בישראל' כלומר כל בעל מכולת בישראל אשר יהיה מעוניין במוצר. התשובה היא אם כן – מוצר תוכנה גנרי.",
-    "image" : "",
-    "question" : "האם המוצר גנרי או מותאם: מערכת לניהול מכולות שכונתיות בישראל"
-  }, {
-    "choices" : {
-      "A" : "גנרי",
-      "B" : "מותאם",
-      "C" : "",
-      "D" : ""
-    },
-    "correct" : "גנרי",
-    "explanation" : "",
-    "image" : "",
-    "question" : "האם המוצר גנרי או מותאם: סביבת פיתוח לאפליקציות אנדרואיד"
-  }, {
-    "choices" : {
-      "A" : "מותאם",
-      "B" : "גנרי",
-      "C" : "",
-      "D" : ""
-    },
-    "correct" : "מותאם",
-    "explanation" : "'מערכת לתחזוקה וניהול של שמורות טבע וגנים לאומיים בישראל' הינה מוצר תוכנה מותאם כיוון שהלקוח פה הוא 'רשות שמורות הטבע והגנים'.",
-    "image" : "",
-    "question" : "האם המוצר גנרי או מותאם: מערכת לתחזוקה וניהול של שמורות טבע וגנים לאומיים בישראל"
   }, {
     "choices" : {
       "A" : "Maintainability",
@@ -2101,5 +1936,115 @@
     "explanation" : "מתוך מיקודון של ליאל ביטון / ממן 13 (2024)",
     "image" : "https://raw.githubusercontent.com/Romansko/22916/main/img/foobartests.png",
     "question" : "כאשר מריצים את הקוד, כמה פעמים תרוץ המתודה testAnotherThing? (מודול 6 - JUnit)"
+  }, {
+    "choices" : {
+      "A" : "Observer",
+      "B" : "MVC",
+      "C" : "שינוי שם מתודה",
+      "D" : "אמינות"
+    },
+    "correct" : "Observer",
+    "explanation" : "מתוך מיקודון של ליאל ביטון, תבנית לשימוש חוזר בשלב התכן.",
+    "image" : "",
+    "question" : "דוגמא ל Design Pattern היא"
+  }, {
+    "choices" : {
+      "A" : "MVC",
+      "B" : "Observer",
+      "C" : "שינוי שם מתודה",
+      "D" : "אמינות"
+    },
+    "correct" : "MVC",
+    "explanation" : "מתוך מיקודון של ליאל ביטון, תבנית לשימוש חוזר עבור הארכיטקטורה של המערכת.",
+    "image" : "",
+    "question" : "דוגמא ל Architectural pattern היא"
+  }, {
+    "choices" : {
+      "A" : "תכן, ארכיטקטורה, קידוד",
+      "B" : "דרישות",
+      "C" : "דרישות, תכן, ארכיטקטורה",
+      "D" : "דרישות, תכן, קידוד"
+    },
+    "correct" : "תכן, ארכיטקטורה, קידוד",
+    "explanation" : "מתוך מיקודון של ליאל ביטון, שימוש חוזר ברכיבים, practice חיובי ורצוי בהנדסת תוכנה.",
+    "image" : "",
+    "question" : "המונח Reuse קשור לשלב"
+  }, {
+    "choices" : {
+      "A" : "ארכיטקטורה",
+      "B" : "דרישות",
+      "C" : "תכן",
+      "D" : "קידוד"
+    },
+    "correct" : "ארכיטקטורה",
+    "explanation" : "מתוך מיקודון של ליאל ביטון, שיטה בXP לתקשור הארכיטקטורה של המערכת על ידי יצירת 'סיפור' משותף.",
+    "image" : "",
+    "question" : "המונח Metaphor קשור לשלב"
+  }, {
+    "choices" : {
+      "A" : "כל התשובות נכונות",
+      "B" : "שינוי שם מתודה",
+      "C" : "העברת מחלקה",
+      "D" : ""
+    },
+    "correct" : "כל התשובות נכונות",
+    "explanation" : "מתוך מיקודון של ליאל ביטון, ארגון מחדש של צורת הקוד ללא שינוי פונקציונאלי.",
+    "image" : "",
+    "question" : "דוגמא ל Refactoring היא"
+  }, {
+    "choices" : {
+      "A" : "דרישות",
+      "B" : "תכן",
+      "C" : "קידוד",
+      "D" : "ארכיטקטורה"
+    },
+    "correct" : "דרישות",
+    "explanation" : "מתוך מיקודון של ליאל ביטון, מסמך הדרישות הפורמאלי, ראשי תיבות של Software requirements specification.",
+    "image" : "",
+    "question" : "המונח SRS קשור לשלב"
+  }, {
+    "choices" : {
+      "A" : "דרישות, תכן, ארכיטקטורה",
+      "B" : "תכן, ארכיטקטורה, קידוד",
+      "C" : "דרישות, תכן, קידוד",
+      "D" : "תכן, קידוד"
+    },
+    "correct" : "דרישות, תכן, ארכיטקטורה",
+    "explanation" : "מתוך מיקודון של ליאל ביטון, שיטה אג'ילית מבוססת כרטיסיות לזיהוי מחלקות במערכת.",
+    "image" : "",
+    "question" : "המונח CRC Cards קשור לשלב"
+  }, {
+    "choices" : {
+      "A" : "דרישות, תכן",
+      "B" : "דרישות, ארכיטקטורה",
+      "C" : "תכן, ארכיטקטורה",
+      "D" : "תכן, קידוד"
+    },
+    "correct" : "דרישות, תכן",
+    "explanation" : "מתוך מיקודון של ליאל ביטון, דיאגרמת UML המתארת אינטראקציה בין אובייקטים ורכיבים שונים במערכת.",
+    "image" : "",
+    "question" : "המונח Sequence diagram קשור לשלב"
+  }, {
+    "choices" : {
+      "A" : "דרישות",
+      "B" : "תכן",
+      "C" : "קידוד",
+      "D" : "ארכיטקטורה"
+    },
+    "correct" : "דרישות",
+    "explanation" : "מתוך מיקודון של ליאל ביטון, ראיון של בעלי עניין על מנת להפיק מידע על המערכת הרצויה.",
+    "image" : "",
+    "question" : "המונח Interview קשור לשלב"
+  }, {
+    "choices" : {
+      "A" : "כל התשובות נכונות",
+      "B" : "אמינות",
+      "C" : "בטיחות",
+      "D" : "תחזוקתיות"
+    },
+    "correct" : "כל התשובות נכונות",
+    "explanation" : "מתוך מיקודון של ליאל ביטון, דרישת מערכת המגדירה אילוץ על הדרישות הפונקציונאליות.",
+    "image" : "",
+    "question" : "דוגמא לדרישות לא פונקציונליות"
   }  ]
 }
