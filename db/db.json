@@ -569,7 +569,7 @@
       "D" : "אף תשובה אינה נכונה"
     },
     "correct" : "במערכת הממומשת נמצא אולי קוד מקבילי",
-    "explanation" : "",
+    "explanation" : "מתוך מבחן Exam-2023A-MoedB",
     "image" : "",
     "question" : "אלו מהאמירות הבאות נכונה עבור שימוש ב-fork בדיאגרמה מסוג Activity Diagram?"
   }, {
@@ -580,7 +580,7 @@
       "D" : "Aggregation"
     },
     "correct" : "Composition",
-    "explanation" : "היחס aggregation איננו מתאים כיוון שהזנב איננו יכול להתקיים בפני עצמו.",
+    "explanation" : "מתוך מבחן Exam-2023A-MoedB. היחס aggregation איננו מתאים כיוון שהזנב איננו יכול להתקיים בפני עצמו.",
     "image" : "",
     "question" : "בדיאגרמת מחלקות, מהו סוג הקשר המתאים ביותר לתיאור היחס בין חתול והזנב שלו?"
   }, {
@@ -668,7 +668,7 @@
       "D" : "מתן מענה לדרישה רגולטורית"
     },
     "correct" : "אמצעי תקשורת בין חברי הצוות",
-    "explanation" : "",
+    "explanation" : "מתוך מבחן Exam-2023A-MoedB",
     "image" : "",
     "question" : "מבין התפקידים השונים של תיעוד מערכת, מהו התפקיד המזוהה ביותר עם הגישה האג'ילית?"
   }, {
@@ -1175,7 +1175,7 @@
     },
     "correct" : "Functional Suitability",
     "explanation" : "Functional Suitability (Functional Correctness)",
-    "image" : "",
+    "image" : "מתוך מבחן Exam-2020A-MoedB",
     "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: בעת סריקה מהירה של מוצרים, על המודל לזהות בצורה נכונה 80 מהמוצרים שנסרקו"
   }, {
     "choices" : {
@@ -1185,7 +1185,7 @@
       "D" : "Functional Suitability"
     },
     "correct" : "Performance efficiency",
-    "explanation" : "",
+    "explanation" : "מתוך מבחן Exam-2020A-MoedB",
     "image" : "",
     "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: בעת סריקה מהירה של מוצרים, תתקבל תשובה מהמודל תוך לא יותר מ2 שניות"
   }, {
@@ -1196,7 +1196,7 @@
       "D" : "Usability"
     },
     "correct" : "Security",
-    "explanation" : "",
+    "explanation" : "מתוך מבחן Exam-2020A-MoedB",
     "image" : "",
     "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: מסד הנתונים בענן מכיל את הרגלי הצריכה של המשתמשים יש לשמור את המידע בצורה שאיננה מאפשרת גישה אליו מצד גורמים לא מורשים"
   }, {
@@ -1207,7 +1207,7 @@
       "D" : "Compatibility"
     },
     "correct" : "Reliability",
-    "explanation" : "",
+    "explanation" : "מתוך מבחן Exam-2018A.",
     "image" : "",
     "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: על המערכת להיות זמינה לשימוש (שליחת מיילים או קבלתם) לכל הפחות ב-95 מהזמן ביממה"
   }, {
@@ -1218,7 +1218,7 @@
       "D" : "Usability"
     },
     "correct" : "Portability",
-    "explanation" : "",
+    "explanation" : "מתוך מבחן Exam-2018A.",
     "image" : "",
     "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: ניתן להתקין את המערכת במחשב האישי בקלות  תהליך ההתקנה יארך דקה לכל היותר"
   }, {
@@ -1229,7 +1229,7 @@
       "D" : "Compatibility"
     },
     "correct" : "Functional Suitability",
-    "explanation" : "",
+    "explanation" : "מתוך מבחן Exam-2018A.",
     "image" : "",
     "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: כאשר שולחים מייל למשתמש A ומציינים את משתמש B ב'עותק נסתר', על המייל להגיע לשתי הכתובות, כאשר המשתמש A לא יראה שהמייל נשלח גם ל-B"
   }, {
@@ -1240,7 +1240,7 @@
       "D" : "Portability"
     },
     "correct" : "Compatibility",
-    "explanation" : "",
+    "explanation" : "מתוך מבחן Exam-2018A.",
     "image" : "",
     "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: מאחר ומשתמשים רבים משתמשים בשירות הדואר OUTLOOK, על המערכת החדשה לדעת לייבא את אנשי הקשר של OUTLOOK"
   }, {
@@ -1251,7 +1251,7 @@
       "D" : "Usability"
     },
     "correct" : "Maintainability",
-    "explanation" : "",
+    "explanation" : "מתוך מבחן Exam-2018A.",
     "image" : "",
     "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: יש לספק בנוסף למערכת עובדת גם תיעוד אשר יסביר את המחלקות העיקריות ואת הקשרים ביניהן"
   }, {
@@ -1262,7 +1262,7 @@
       "D" : "Reliability"
     },
     "correct" : "Usability",
-    "explanation" : "",
+    "explanation" : "מתוך מבחן Exam-2018A.",
     "image" : "",
     "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: במידה והמשתמש מנסה לשלוח מייל לכתובת אימייל לא חוקית יש לספק הודעת שגיאה ברורה"
   }, {
@@ -1273,7 +1273,7 @@
       "D" : "Maintainability"
     },
     "correct" : "Performance Efficiency",
-    "explanation" : "",
+    "explanation" : "מתוך מבחן Exam-2018A.",
     "image" : "",
     "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: כאשר המערכת מורידה כמות גדולה של מיילים מהשרת, יש לנצל בצורה אופטימלית את המשאבים החישוביים במחשב המקומי, ובפרט  לתמוך בעבודה מקבילית"
   }, {
@@ -1284,7 +1284,7 @@
       "D" : "Functional Suitability"
     },
     "correct" : "Reliability",
-    "explanation" : "",
+    "explanation" : "מתוך מבחן Exam-2018A.",
     "image" : "",
     "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: בנוסף על שמירת נתוני המיילים 'בענן', על המערכת לגבות את הנתונים כדי למנוע איבודם"
   }, {
@@ -1295,7 +1295,7 @@
       "D" : "Portability"
     },
     "correct" : "Usability",
-    "explanation" : "",
+    "explanation" : "מתוך מבחן Exam-2018A.",
     "image" : "",
     "question" : "סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: על ממשק המשתמש להיות נגיש בכמה שפות: עברית, אנגלית, ערבית, ורוסית המשתמש יוכל להחליף שפה כרצונו"
   }, {
@@ -1680,7 +1680,7 @@
       "D" : ""
     },
     "correct" : "לא נכון",
-    "explanation" : "",
+    "explanation" : "מתוך מיקודון ליאל ביטון / ממן 11 (2024)",
     "image" : "",
     "question" : "בסיפורי המשתמש יש את הפרטים המספיקים למימוש הסיפור במערכת"
   }, {
@@ -1691,7 +1691,7 @@
       "D" : ""
     },
     "correct" : "נכון",
-    "explanation" : "",
+    "explanation" : "מתוך מיקודון ליאל ביטון / ממן 11 (2024)",
     "image" : "",
     "question" : "ניתן להגדיר סיפור משתמש גם עבור דרישות לא פונקציונאליות"
   }, {
@@ -1702,7 +1702,7 @@
       "D" : ""
     },
     "correct" : "לא נכון",
-    "explanation" : "",
+    "explanation" : "מתוך מיקודון ליאל ביטון / ממן 11 (2024)",
     "image" : "",
     "question" : "מסמך דרישות אשר מתקיימת בו תכונת העקביות אפשר להסיק שמתקיימת בו גם תכונת השלמות"
   }, {
@@ -1713,7 +1713,7 @@
       "D" : ""
     },
     "correct" : "לא נכון",
-    "explanation" : "",
+    "explanation" : "מתוך מיקודון ליאל ביטון / ממן 11 (2024)",
     "image" : "",
     "question" : "לרוב, דרישות לא פונקציונאליות ממוקדות במודול אחד של המערכת"
   }, {
@@ -1724,7 +1724,7 @@
       "D" : "תצפיות"
     },
     "correct" : "יצירת מסמך SRS",
-    "explanation" : "",
+    "explanation" : "מתוך מיקודון ליאל ביטון / ממן 11 (2024)",
     "image" : "",
     "question" : "אלו מהשיטות הבאות איננה קשורה לשלב זיהויגילוי הדרישות?"
   }, {
@@ -1735,7 +1735,7 @@
       "D" : "ראיונות"
     },
     "correct" : "יצירת Test-Cases",
-    "explanation" : "",
+    "explanation" : "מתוך מיקודון ליאל ביטון / ממן 11 (2024)",
     "image" : "",
     "question" : "אלו מהשיטות הבאות איננה קשורה לשלב זיהויגילוי הדרישות?"
   }, {
@@ -1746,7 +1746,7 @@
       "D" : ""
     },
     "correct" : "Business & Development",
-    "explanation" : "הפחתת סיפורים במידה וקצב הפיתוח נמוך מהמצופה",
+    "explanation" : "תשובה מתוך Exam-2019A-MoedA / ממן 11 (2024). הפחתת סיפורים במידה וקצב הפיתוח נמוך מהמצופה.",
     "image" : "",
     "question" : "מי מבצע את הפעילות 'התאוששות' (Recovery) מתוך משחק התכנון (Planning Game) של XP?"
   }, {
@@ -1757,7 +1757,7 @@
       "D" : ""
     },
     "correct" : "Business & Development",
-    "explanation" : "הכנסת סיפור חדש לגרסה במידת הצורך",
+    "explanation" : "תשובה מתוך Exam-2019A-MoedA / ממן 11 (2024). הכנסת סיפור חדש לגרסה במידת הצורך.",
     "image" : "",
     "question" : "מי מבצע את הפעילות 'הכנסת סיפור חדש (במהלך הפיתוח)' (New story) מתוך משחק התכנון (Planning Game) של XP?"
   }, {
@@ -1768,7 +1768,7 @@
       "D" : ""
     },
     "correct" : "Development",
-    "explanation" : "מיון הסיפורים לפי הסיכון בפיתוח (בהערכת הזמנים)",
+    "explanation" : "תשובה מתוך Exam-2019A-MoedA / ממן 11 (2024). מיון הסיפורים לפי הסיכון בפיתוח (בהערכת הזמנים).",
     "image" : "",
     "question" : "מי מבצע את הפעילות 'מיון לפי סיכון' (Sort by risk) מתוך משחק התכנון (Planning Game) של XP?"
   }, {
@@ -1779,7 +1779,7 @@
       "D" : ""
     },
     "correct" : "Development",
-    "explanation" : "קביעת קצב הפיתוח",
+    "explanation" : "תשובה מתוך Exam-2019A-MoedA / ממן 11 (2024). קביעת קצב הפיתוח.",
     "image" : "",
     "question" : "מי מבצע את הפעילות 'קביעת מהירות הפיתוח' (Set velocity) מתוך משחק התכנון (Planning Game) של XP?"
   }, {
@@ -1790,7 +1790,7 @@
       "D" : ""
     },
     "correct" : "Business",
-    "explanation" : "מיון הסיפורים לפי חשיבות עסקית",
+    "explanation" : "תשובה מתוך Exam-2019A-MoedA / ממן 11 (2024). מיון הסיפורים לפי חשיבות עסקית.",
     "image" : "",
     "question" : "מי מבצע את הפעילות 'מיון לפי ערך' (Sort by value) מתוך משחק התכנון (Planning Game) של XP?"
   }, {
@@ -1801,7 +1801,7 @@
       "D" : ""
     },
     "correct" : "Business",
-    "explanation" : "כתיבת סיפור משתמש חדש",
+    "explanation" : "תשובה מתוך Exam-2019A-MoedA / ממן 11 (2024). כתיבת סיפור משתמש חדש.",
     "image" : "",
     "question" : "מי מבצע את הפעילות 'כתיבת סיפור משתמש' (Write a story) מתוך משחק התכנון (Planning Game) של XP?"
   }, {
@@ -1812,7 +1812,7 @@
       "D" : ""
     },
     "correct" : "Business",
-    "explanation" : "בחירת סך הסיפורים לגרסה",
+    "explanation" : "תשובה מתוך Exam-2019A-MoedA / ממן 11 (2024). בחירת סך הסיפורים לגרסה.",
     "image" : "",
     "question" : "מי מבצע את הפעילות 'קביעת הScope של הגרסה' (Choose a scope) מתוך משחק התכנון (Planning Game) של XP?"
   }, {
@@ -1823,7 +1823,7 @@
       "D" : ""
     },
     "correct" : "Development",
-    "explanation" : "הערכת זמן הפיתוח של סיפור",
+    "explanation" : "תשובה מתוך Exam-2019A-MoedA / ממן 11 (2024). הערכת זמן הפיתוח של סיפור.",
     "image" : "",
     "question" : "מי מבצע את הפעילות 'הערכת סיפור משתמש' (Estimate a story) מתוך משחק התכנון (Planning Game) של XP?"
   }, {
@@ -1834,7 +1834,7 @@
       "D" : ""
     },
     "correct" : "Business",
-    "explanation" : "בממן 11, 2024 המרצה כתב כי התשובה היא Business. זאת בניגוד לפתרון שנמצא בExam-2019A-MoedA-answers.",
+    "explanation" : "ביצוע של איטרצית פיתוח. בממן 11, 2024 המרצה כתב כי התשובה היא Business. זאת בניגוד לפתרון שנמצא עבור Exam-2019A-MoedA.",
     "image" : "",
     "question" : "מי מבצע את הפעילות 'הגדרת איטרציה' (Iteration) מתוך משחק התכנון (Planning Game) של XP?"
   }, {
@@ -1845,7 +1845,7 @@
       "D" : ""
     },
     "correct" : "Development",
-    "explanation" : "הערכה מחדש של הסיפורים במהלך הגרסה",
+    "explanation" : "תשובה מתוך Exam-2019A-MoedA / ממן 11 (2024). הערכה מחדש של הסיפורים במהלך הגרסה.",
     "image" : "",
     "question" : "מי מבצע את הפעילות 'הערכה מחדש' (Re-estimate) מתוך משחק התכנון (Planning Game) של XP?"
   }, {
@@ -1856,7 +1856,7 @@
       "D" : ""
     },
     "correct" : "Business & Development",
-    "explanation" : "פיצול סיפור לשניים או יותר עקב מורכבות או קושי בהערכה. גם Business התקבל.",
+    "explanation" : "תשובה מתוך Exam-2019A-MoedA. פיצול סיפור לשניים או יותר עקב מורכבות או קושי בהערכה. גם Business התקבל.",
     "image" : "",
     "question" : "מי מבצע את הפעילות 'פיצול סיפור' (Split a story) מתוך משחק התכנון (Planning Game) של XP?"
   }, {
