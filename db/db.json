@@ -1339,7 +1339,7 @@
       "D" : "4"
     },
     "correct" : "1",
-    "explanation" : "",
+    "explanation" : "מתוך מבחן Exam-2018A / ממן13 (2024)",
     "image" : "https://raw.githubusercontent.com/Romansko/22916/main/img/fixsoft.png",
     "question" : "יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה במהלך ריצת המערכת, בה המפתח עורך קובץ JAVA אחד בלבד, כמה אובייקטים יש למחלקה ConcreteSubject?"
   }, {
@@ -1350,7 +1350,7 @@
       "D" : "4"
     },
     "correct" : "3",
-    "explanation" : "",
+    "explanation" : "מתוך מבחן Exam-2018A / ממן13 (2024)",
     "image" : "https://raw.githubusercontent.com/Romansko/22916/main/img/fixsoft.png",
     "question" : "יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה במהלך ריצת המערכת, בה המפתח עורך קובץ JAVA אחד בלבד, כמה אובייקטים יש למחלקה ConcreteObserver?"
   }, {
@@ -1361,9 +1361,20 @@
       "D" : "4"
     },
     "correct" : "3",
-    "explanation" : "",
+    "explanation" : "מתוך מבחן Exam-2018A / ממן13 (2024)",
     "image" : "https://raw.githubusercontent.com/Romansko/22916/main/img/fixsoft.png",
     "question" : "יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה במהלך ריצת המערכת, בה המפתח עורך קובץ JAVA אחד בלבד, כמה פעמים נקראת המתודה attach?"
+  }, {
+    "choices" : {
+      "A" : "לא נכון",
+      "B" : "נכון",
+      "C" : "",
+      "D" : ""
+    },
+    "correct" : "לא נכון",
+    "explanation" : "מתוך מיקודון ליאל ביטון / ממן13 (2024)",
+    "image" : "https://raw.githubusercontent.com/Romansko/22916/main/img/fixsoft.png",
+    "question" : "כאשר המפתח מוסיף מתודה חדשה אחת בלבד, רק Observer אחד מקבל הודעת עדכון"
   }, {
     "choices" : {
       "A" : "notify, update, getState",
@@ -1372,7 +1383,7 @@
       "D" : "notify, attach, update, getState"
     },
     "correct" : "notify, update, getState",
-    "explanation" : "",
+    "explanation" : "מתוך מבחן Exam-2018A / ממן13 (2024)",
     "image" : "https://raw.githubusercontent.com/Romansko/22916/main/img/fixsoft.png",
     "question" : "יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה כאשר המפתח (המשתמש במערכת) מעדכן את קוד מחלקת הJAVA בעורך, אלו מתודות נקראות?"
   }, {
@@ -1925,5 +1936,170 @@
     "explanation" : "תשובה מתוך מיקודון למבחן של ליאל ביטון.",
     "image" : "",
     "question" : "להלן בעיה שיכולה לעלות במהלך הגדרת ארכיטקטורת המערכת יש להתאים את השיטה או המונח אשר בא ללת מענה לבעיה: כאשר המערכת מורכבת, קשה להגדיר ייצוג אחד בלבד של מבנה המערכת"
+  }, {
+    "choices" : {
+      "A" : "LGPL",
+      "B" : "GPL",
+      "C" : "BSD",
+      "D" : ""
+    },
+    "correct" : "LGPL",
+    "explanation" : "מתוך מיקודון של ליאל ביטון / ממן 13 (2024)",
+    "image" : "",
+    "question" : "לעודד לא אכפת שמפתחים אחרים ישתמשו בספרייה שלו, אפילו למוצר עם קוד סגור, כל עוד הם משתמשים בספרייה כפי שהיא ללא שום שינוי של שורת קוד, הרישיון המתאים הינו"
+  }, {
+    "choices" : {
+      "A" : "BSD",
+      "B" : "LGPL",
+      "C" : "GPL",
+      "D" : ""
+    },
+    "correct" : "BSD",
+    "explanation" : "מתוך מיקודון של ליאל ביטון / ממן 13 (2024)",
+    "image" : "",
+    "question" : "לשגית חשוב שמי שמשתמש בספרייה ייתן לה קרדיט, וכל עוד זה המצב, מבחינתה המוצר המשתמש יכול להיות מסחרי, הרישיון המתאים הינו"
+  }, {
+    "choices" : {
+      "A" : "GPL",
+      "B" : "BSD",
+      "C" : "LGPL",
+      "D" : ""
+    },
+    "correct" : "GPL",
+    "explanation" : "מתוך מיקודון של ליאל ביטון / ממן 13 (2024)",
+    "image" : "",
+    "question" : "אבי מסכים שמפתחים ישתמשו בספרייה שלו בתנאי שהמערכת אותה הם מפתחים תהיה גם היא קוד פתוח, הרישיון המתאים הינו"
+  }, {
+    "choices" : {
+      "A" : "Acceptance tests",
+      "B" : "Release tests",
+      "C" : "System tests",
+      "D" : "Alpha tests"
+    },
+    "correct" : "Acceptance tests",
+    "explanation" : "מתוך מיקודון של ליאל ביטון / ממן 13 (2024)",
+    "image" : "",
+    "question" : "התאימו לתיאור את סוג הבדיקה: 'באמצעותן חברת התוכנה מוכיחה ללקוח שהמוצר מוכן למסירה'"
+  }, {
+    "choices" : {
+      "A" : "Beta tests",
+      "B" : "Alpha tests",
+      "C" : "Release tests",
+      "D" : "System tests"
+    },
+    "correct" : "Beta tests",
+    "explanation" : "מתוך מיקודון של ליאל ביטון / ממן 13 (2024)",
+    "image" : "",
+    "question" : "התאימו לתיאור את סוג הבדיקה: 'את המערכת בודקים משתמשים נבחרים'"
+  }, {
+    "choices" : {
+      "A" : "Unit tests",
+      "B" : "Acceptance tests",
+      "C" : "Component tests",
+      "D" : "Release tests"
+    },
+    "correct" : "Unit tests",
+    "explanation" : "מתוך מיקודון של ליאל ביטון / ממן 13 (2024)",
+    "image" : "",
+    "question" : "התאימו לתיאור את סוג הבדיקה: 'בXP אלו הבדיקות שחייבות לרוץ תמיד ב100 הצלחה'"
+  }, {
+    "choices" : {
+      "A" : "System tests",
+      "B" : "Component tests",
+      "C" : "Unit tests",
+      "D" : "Alpha tests"
+    },
+    "correct" : "System tests",
+    "explanation" : "מתוך מיקודון של ליאל ביטון / ממן 13 (2024)",
+    "image" : "",
+    "question" : "התאימו לתיאור את סוג הבדיקה: 'בודקות את המערכת בכללותה וממוקדות במציאת באגים'"
+  }, {
+    "choices" : {
+      "A" : "Release tests",
+      "B" : "Acceptance tests",
+      "C" : "System tests",
+      "D" : "Unit tests"
+    },
+    "correct" : "Release tests",
+    "explanation" : "מתוך מיקודון של ליאל ביטון / ממן 13 (2024)",
+    "image" : "",
+    "question" : "התאימו לתיאור את סוג הבדיקה: 'באמצעותן חברת התוכנה מוכיחה לעצמה שהמוצר מוכן למסירה'"
+  }, {
+    "choices" : {
+      "A" : "Unit tests",
+      "B" : "Component tests",
+      "C" : "Alpha tests",
+      "D" : "Beta tests"
+    },
+    "correct" : "Unit tests",
+    "explanation" : "מתוך מיקודון של ליאל ביטון / ממן 13 (2024)",
+    "image" : "",
+    "question" : "התאימו לתיאור את סוג הבדיקה: 'בדיקות אלו בודקות את החלקים הבסיסיים ביותר של התוכנה'"
+  }, {
+    "choices" : {
+      "A" : "System tests",
+      "B" : "Component tests",
+      "C" : "Unit tests",
+      "D" : "Release tests"
+    },
+    "correct" : "System tests",
+    "explanation" : "מתוך מיקודון של ליאל ביטון / ממן 13 (2024)",
+    "image" : "",
+    "question" : "התאימו לתיאור את סוג הבדיקה: 'בעזרת בדיקות אלו בודקים המפתחים את המערכת כולה'"
+  }, {
+    "choices" : {
+      "A" : "Alpha tests",
+      "B" : "Acceptance tests",
+      "C" : "Release tests",
+      "D" : "System tests"
+    },
+    "correct" : "Alpha tests",
+    "explanation" : "מתוך מיקודון של ליאל ביטון / ממן 13 (2024)",
+    "image" : "",
+    "question" : "התאימו לתיאור את סוג הבדיקה: 'בדיקות בהן נפגשים (פיזית) מפתחים ומשתמשים'"
+  }, {
+    "choices" : {
+      "A" : "1",
+      "B" : "2",
+      "C" : "3",
+      "D" : "4"
+    },
+    "correct" : "1",
+    "explanation" : "מתוך מיקודון של ליאל ביטון / ממן 13 (2024)",
+    "image" : "https://raw.githubusercontent.com/Romansko/22916/main/img/foobartests.png",
+    "question" : "כאשר מריצים את הקוד, כמה פעמים תרוץ המתודה setUpClass? (מודול 6 - JUnit)"
+  }, {
+    "choices" : {
+      "A" : "3",
+      "B" : "1",
+      "C" : "2",
+      "D" : "4"
+    },
+    "correct" : "3",
+    "explanation" : "מתוך מיקודון של ליאל ביטון / ממן 13 (2024)",
+    "image" : "https://raw.githubusercontent.com/Romansko/22916/main/img/foobartests.png",
+    "question" : "כאשר מריצים את הקוד, כמה פעמים תרוץ המתודה tearDown? (מודול 6 - JUnit)"
+  }, {
+    "choices" : {
+      "A" : "1",
+      "B" : "2",
+      "C" : "3",
+      "D" : "4"
+    },
+    "correct" : "1",
+    "explanation" : "מתוך מיקודון של ליאל ביטון / ממן 13 (2024)",
+    "image" : "https://raw.githubusercontent.com/Romansko/22916/main/img/foobartests.png",
+    "question" : "כאשר מריצים את הקוד, כמה פעמים תרוץ המתודה tearDownClass? (מודול 6 - JUnit)"
+  }, {
+    "choices" : {
+      "A" : "1",
+      "B" : "2",
+      "C" : "3",
+      "D" : "4"
+    },
+    "correct" : "1",
+    "explanation" : "מתוך מיקודון של ליאל ביטון / ממן 13 (2024)",
+    "image" : "https://raw.githubusercontent.com/Romansko/22916/main/img/foobartests.png",
+    "question" : "כאשר מריצים את הקוד, כמה פעמים תרוץ המתודה testAnotherThing? (מודול 6 - JUnit)"
   }  ]
 }

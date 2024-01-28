@@ -789,7 +789,7 @@ $
 2
 3
 4
-$
+מתוך מבחן Exam-2018A / ממן13 (2024)
 https://raw.githubusercontent.com/Romansko/22916/main/img/fixsoft.png
 ;
 יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה. במהלך ריצת המערכת, בה המפתח עורך קובץ JAVA אחד בלבד, כמה אובייקטים יש למחלקה ConcreteObserver?
@@ -797,7 +797,7 @@ https://raw.githubusercontent.com/Romansko/22916/main/img/fixsoft.png
 1
 2
 4
-$
+מתוך מבחן Exam-2018A / ממן13 (2024)
 https://raw.githubusercontent.com/Romansko/22916/main/img/fixsoft.png
 ;
 יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה. במהלך ריצת המערכת, בה המפתח עורך קובץ JAVA אחד בלבד, כמה פעמים נקראת המתודה attach?
@@ -805,7 +805,15 @@ https://raw.githubusercontent.com/Romansko/22916/main/img/fixsoft.png
 1
 2
 4
+מתוך מבחן Exam-2018A / ממן13 (2024)
+https://raw.githubusercontent.com/Romansko/22916/main/img/fixsoft.png
+;
+כאשר המפתח מוסיף מתודה חדשה אחת בלבד, רק Observer אחד מקבל הודעת עדכון.
+לא נכון
+נכון
 $
+$
+מתוך מיקודון ליאל ביטון / ממן13 (2024)
 https://raw.githubusercontent.com/Romansko/22916/main/img/fixsoft.png
 ;
 יש לענות בהתאם לדיאגרמת המחלקות המופיעה בתמונה. כאשר המפתח (המשתמש במערכת) מעדכן את קוד מחלקת הJAVA בעורך, אלו מתודות נקראות?
@@ -813,7 +821,7 @@ notify, update, getState
 notify, attach, update
 notify, detach, update
 notify, attach, update, getState
-$
+מתוך מבחן Exam-2018A / ממן13 (2024)
 https://raw.githubusercontent.com/Romansko/22916/main/img/fixsoft.png
 ;
 הספרייה JUnit מיועדת לכתיבת בדיקות יחידה בלבד
@@ -1138,4 +1146,113 @@ Architectural Pattern
 Application Architecture 
 Block Diagram
 תשובה מתוך מיקודון למבחן של ליאל ביטון.
+;
+לעודד לא אכפת שמפתחים אחרים ישתמשו בספרייה שלו, אפילו למוצר עם קוד סגור, כל עוד הם משתמשים בספרייה כפי שהיא ללא שום שינוי של שורת קוד, הרישיון המתאים הינו
+LGPL
+GPL
+BSD
+$
+מתוך מיקודון של ליאל ביטון / ממן 13 (2024)
+;
+לשגית חשוב שמי שמשתמש בספרייה ייתן לה קרדיט, וכל עוד זה המצב, מבחינתה המוצר המשתמש יכול להיות מסחרי, הרישיון המתאים הינו
+BSD
+LGPL
+GPL
+$
+מתוך מיקודון של ליאל ביטון / ממן 13 (2024)
+;
+אבי מסכים שמפתחים ישתמשו בספרייה שלו בתנאי שהמערכת אותה הם מפתחים תהיה גם היא קוד פתוח, הרישיון המתאים הינו
+GPL
+BSD
+LGPL
+$
+מתוך מיקודון של ליאל ביטון / ממן 13 (2024)
+;
+התאימו לתיאור את סוג הבדיקה: "באמצעותן חברת התוכנה מוכיחה ללקוח שהמוצר מוכן למסירה"
+Acceptance tests
+Release tests
+System tests
+Alpha tests
+מתוך מיקודון של ליאל ביטון / ממן 13 (2024)
+;
+התאימו לתיאור את סוג הבדיקה: "את המערכת בודקים משתמשים נבחרים"
+Beta tests
+Alpha tests
+Release tests
+System tests
+מתוך מיקודון של ליאל ביטון / ממן 13 (2024)
+;
+התאימו לתיאור את סוג הבדיקה: "בXP אלו הבדיקות שחייבות לרוץ תמיד ב100% הצלחה"
+Unit tests
+Acceptance tests
+Component tests
+Release tests
+מתוך מיקודון של ליאל ביטון / ממן 13 (2024)
+;
+התאימו לתיאור את סוג הבדיקה: "בודקות את המערכת בכללותה וממוקדות במציאת באגים"
+System tests
+Component tests
+Unit tests
+Alpha tests
+מתוך מיקודון של ליאל ביטון / ממן 13 (2024)
+;
+התאימו לתיאור את סוג הבדיקה: "באמצעותן חברת התוכנה מוכיחה לעצמה שהמוצר מוכן למסירה"
+Release tests
+Acceptance tests
+System tests
+Unit tests
+מתוך מיקודון של ליאל ביטון / ממן 13 (2024)
+;
+התאימו לתיאור את סוג הבדיקה: "בדיקות אלו בודקות את החלקים הבסיסיים ביותר של התוכנה"
+Unit tests
+Component tests
+Alpha tests
+Beta tests
+מתוך מיקודון של ליאל ביטון / ממן 13 (2024)
+;
+התאימו לתיאור את סוג הבדיקה: "בעזרת בדיקות אלו בודקים המפתחים את המערכת כולה"
+System tests
+Component tests
+Unit tests
+Release tests
+מתוך מיקודון של ליאל ביטון / ממן 13 (2024)
+;
+התאימו לתיאור את סוג הבדיקה: "בדיקות בהן נפגשים (פיזית) מפתחים ומשתמשים"
+Alpha tests
+Acceptance tests
+Release tests
+System tests
+מתוך מיקודון של ליאל ביטון / ממן 13 (2024)
+;
+כאשר מריצים את הקוד, כמה פעמים תרוץ המתודה setUpClass? (מודול 6 - JUnit)
+1
+2
+3
+4
+מתוך מיקודון של ליאל ביטון / ממן 13 (2024)
+https://raw.githubusercontent.com/Romansko/22916/main/img/foobartests.png
+;
+כאשר מריצים את הקוד, כמה פעמים תרוץ המתודה tearDown? (מודול 6 - JUnit)
+3
+1
+2
+4
+מתוך מיקודון של ליאל ביטון / ממן 13 (2024)
+https://raw.githubusercontent.com/Romansko/22916/main/img/foobartests.png
+;
+כאשר מריצים את הקוד, כמה פעמים תרוץ המתודה tearDownClass? (מודול 6 - JUnit)
+1
+2
+3
+4
+מתוך מיקודון של ליאל ביטון / ממן 13 (2024)
+https://raw.githubusercontent.com/Romansko/22916/main/img/foobartests.png
+;
+כאשר מריצים את הקוד, כמה פעמים תרוץ המתודה testAnotherThing? (מודול 6 - JUnit)
+1
+2
+3
+4
+מתוך מיקודון של ליאל ביטון / ממן 13 (2024)
+https://raw.githubusercontent.com/Romansko/22916/main/img/foobartests.png
 ;
