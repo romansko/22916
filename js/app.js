@@ -318,7 +318,7 @@ function generateBulk() {
         console.log(q);
         bulkQuestionsString += "<br/><b>" + q.question + "</b><br>";
         if (q.Image != undefined && q.Image != "") {
-            bulkQuestionsString += "<br/><img src=\"" + q.Image + "\" " + "style=\"width:300px;height:150px;\" /><br/>";
+            bulkQuestionsString += "<br/><img src=\"" + q.Image + "\" " + "style=\"width:80%;\" /><br/>";
         }
         q.choices.forEach(function (c) {
             if (c && c != "$"){ // if string is not empty nor $.
