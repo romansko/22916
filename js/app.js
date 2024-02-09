@@ -320,12 +320,10 @@ function generateBulk() {
         if (q.Image != undefined && q.Image != "") {
             bulkQuestionsString += "<br/><img src=\"" + q.Image + "\" " + "style=\"width:80%;\" /><br/>";
         }
+        bulkQuestionsString += "<br/><strong><font color = \"green\">" + q.correct + "</strong></font><br/>";
         q.choices.forEach(function (c) {
-            if (c && c != "$"){ // if string is not empty nor $.
-                if (c == q.correct) {
-                    bulkQuestionsString += "<br/><strong><font color = \"green\">" + c + "</strong></font><br/>";
-                }
-                else bulkQuestionsString += "<br/>" + c + "</br>";
+            if (c && (c != "$") && (c != q.correct)){ // if string is not empty nor $.
+                bulkQuestionsString += "<br/>" + c + "</br>";
             }
         });
         if (q.explanation && q.explanation != "$") {

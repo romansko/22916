@@ -699,8 +699,7 @@ Functional Suitability
 Compatibility
 Security
 Usability
-Functional Suitability (Functional Correctness)
-מתוך מבחן Exam-2020A-MoedB
+מתוך מבחן 2020א מועד ב - Functional Suitability (Functional Correctness)
 ;
 סווגו את הדרישה הבאה לקטגורית תקן ISO הנכונה: בעת סריקה מהירה של מוצרים, תתקבל תשובה מהמודל תוך לא יותר מ2 שניות.
 Performance efficiency
