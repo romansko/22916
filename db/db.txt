@@ -113,7 +113,7 @@ Difference between Agile (Ag) and Waterfall (Wat) models in the Project Run Rate
 Ag - the same for all period, Wat - higher in the final development period.
 None is correct.
 Ag - increasing iteratively for all period, Wat - higher in the final development period.
-Ag - the same for all period, Wat - higher in the final development period.
+$
 The Question's not from 22916 course. 
 ;
 What is not ERROR definition:
